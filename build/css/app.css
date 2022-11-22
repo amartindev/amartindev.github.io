@@ -615,9 +615,11 @@ body.dark .proyecto-tecnologias {
 }
 
 .switch {
-  position: relative;
+  position: fixed;
   width: 3.5rem;
   height: 2rem;
+  right: 3rem;
+  bottom: 5rem;
 }
 
 .switch input {
