@@ -324,17 +324,10 @@ body {
   background-color: #041C32;
   background-image: linear-gradient(180deg, #041C32 0%, #064663 100%);
 }
-body .dark {
-  background-color: #FFFFFF;
-}
 @media (min-width: 768px) {
   body section {
     padding-top: 6rem;
   }
-}
-
-body.dark {
-  background-image: linear-gradient(180deg, #FFFFFF 0%, #2A3139 100%);
 }
 
 p {
@@ -361,6 +354,7 @@ a {
 }
 
 h1 {
+  color: #E1E1E1;
   font-size: 3.2rem;
 }
 
@@ -394,11 +388,41 @@ button {
   border-color: #E1E1E1;
 }
 
+body.dark {
+  background-image: linear-gradient(180deg, #FFFFFF 3%, #E1E1E1 100%);
+}
+body.dark p, body.dark h3 {
+  color: #041C32;
+}
+body.dark h2 {
+  color: #064663;
+}
+body.dark h1, body.dark a {
+  color: #2A3139;
+}
+body.dark h1 span, body.dark a span {
+  color: #064663;
+}
+body.dark a:hover {
+  color: #085c58;
+}
+body.dark .header {
+  background-color: #E1E1E1;
+}
+body.dark svg {
+  filter: invert(80%);
+}
+body.dark .proyecto {
+  border-color: #085c58;
+}
+body.dark .proyecto-tecnologias {
+  color: #085c58;
+}
+
 .header {
   background-color: #041C32;
 }
 .header h1 {
-  color: #E1E1E1;
   padding: 2rem;
   text-align: center;
   margin: 0;
