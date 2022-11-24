@@ -464,7 +464,7 @@ body.dark .languages-content {
   color: #fff347;
 }
 .navegacion-principal .languages-content {
-  display: hidden;
+  display: none;
   position: absolute;
   width: 100%;
   overflow: auto;
