@@ -418,6 +418,9 @@ body.dark .proyecto {
 body.dark .proyecto-tecnologias {
   color: #085c58;
 }
+body.dark .languages-content {
+  background-color: #E1E1E1;
+}
 
 .header {
   background-color: #041C32;
@@ -459,6 +462,25 @@ body.dark .proyecto-tecnologias {
 }
 .navegacion-principal a:hover {
   color: #fff347;
+}
+.navegacion-principal .languages-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  background-color: #041C32;
+}
+@media (min-width: 768px) {
+  .navegacion-principal .languages-content {
+    width: auto;
+  }
+}
+.navegacion-principal .languages:hover .languages-content {
+  display: block;
+}
+.navegacion-principal .languages-content a {
+  display: block;
+  padding: 5px;
 }
 
 @media (min-width: 768px) {
