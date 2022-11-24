@@ -520,7 +520,7 @@ body.dark .languages-content {
 .home .button-cv:hover {
   filter: invert(10%);
   cursor: pointer;
-  cursor: hand;
+  cursor: pointer;
 }
 
 .contenido-about h2 {
