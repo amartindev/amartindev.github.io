@@ -596,6 +596,14 @@ body.dark .languages-content {
     gap: 1rem;
   }
 }
+@media (min-width: 1200px) {
+  .projects-contenido {
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
 
 .proyecto {
   border: 1px;
