@@ -399,8 +399,7 @@ input:checked + .switch::after {
 .contact {
   background-color: #11524E;
   width: 100%;
-  height: 700px;
-  padding-top: 2rem;
+  padding: 2rem 0;
   text-align: center;
   color: #FFFFFF;
 }
@@ -421,6 +420,27 @@ input:checked + .switch::after {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.contenedor-linea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linea {
+  flex: 1;
+  height: 1px;
+  background-color: #FFFFFF;
+}
+
+.correo {
+  padding: 0 10px;
+  text-align: center;
+}
+.correo a {
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 @keyframes circle-in-hesitate {
@@ -446,7 +466,7 @@ input:checked + .switch::after {
   background-color: #15252b;
   color: #e9e9e9;
 }
-.dark .blob, .dark .about, .dark .hero-text {
+.dark .blob, .dark .about, .dark .hero-text, .dark .contact {
   background: #25333f;
 }
 .dark .container-texto, .dark .projects {
@@ -455,10 +475,10 @@ input:checked + .switch::after {
 .dark .container-texto p, .dark .projects p {
   color: #e9e9e9;
 }
-.dark .navbar-brand, .dark .contenedor-texto-project, .dark .contenedor-enlaces {
+.dark .navbar-brand, .dark .boton-verde, .dark .contenedor-texto-project, .dark .contenedor-enlaces {
   color: #e9e9e9;
 }
-.dark .navbar-nav a, .dark .contenedor-enlaces a {
+.dark .navbar-nav a, .dark .contenedor-enlaces a, .dark .contact a {
   color: #e9e9e9;
 }
 .dark .foto-perfil, .dark .imagen-project {
@@ -477,12 +497,9 @@ input:checked + .switch::after {
   color: #00FFFF;
   text-shadow: 0 0 1px #00FFFF;
 }
-.dark .boton-verde {
-  color: #e9e9e9;
-}
-.dark .boton-verde:hover {
+.dark .boton-verde:hover, .dark .correo:hover {
   background-color: transparent;
-  border: 2px solid rgba(0, 255, 255, 0.3);
+  border: 1px solid rgba(0, 255, 255, 0.3);
   box-shadow: 0 4px 30px rgba(0, 255, 255, 0.1);
 }
 .dark input:checked + .switch::after {
@@ -491,4 +508,12 @@ input:checked + .switch::after {
 .dark .switch::after {
   content: "";
   background: #00FFFF;
+}
+.dark .linea {
+  background-color: rgba(0, 255, 255, 0.3);
+}
+.dark .navbar-toggler {
+  background-color: transparent;
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 255, 255, 0.1);
 }
