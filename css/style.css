@@ -99,7 +99,6 @@ body .texto-claro {
 
 .foto-perfil {
   width: 29rem;
-  filter: grayscale(0%);
   top: 0;
 }
 
@@ -219,6 +218,10 @@ input:checked + .switch::after {
   .hero-social a:hover {
     transform: scale(112%);
   }
+}
+
+.blob-bit {
+  display: none;
 }
 
 .about {
@@ -536,4 +539,42 @@ footer a {
 .dark footer {
   background-color: #111111;
   color: #e9e9e9;
+}
+
+.bits {
+  @import url("https://unpkg.com/nes.css/css/nes.css");
+  font-size: 90%;
+}
+.bits h1, .bits h2, .bits h3, .bits h4, .bits p, .bits a, .bits button {
+  font-family: "Press Start 2P";
+}
+.bits .blob {
+  display: none;
+}
+.bits .blob-bit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+.bits .blob-bit .foto-perfil {
+  max-width: 70%;
+}
+.bits .switch-estilos, .bits .container-skills, .bits .hero-social {
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 3px solid #11524E;
+  margin: 30px;
+  border-radius: 0;
+}
+.bits .about .container-skills {
+  margin-right: 0;
+}
+.bits .hero-social {
+  margin-left: 0;
+}
+.bits .hero-social a {
+  color: #2A3139;
 }
