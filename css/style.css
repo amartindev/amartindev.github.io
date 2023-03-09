@@ -255,7 +255,7 @@ input:checked + .switch::after {
   width: 95%;
 }
 .about .fila .container-texto {
-  width: 100%;
+  width: 95%;
 }
 .about .container-skills {
   width: 45%;
