@@ -226,7 +226,6 @@ input:checked + .switch::after {
 
 .about {
   background-color: #11524E;
-  width: 100%;
   text-align: center;
   padding: 2rem 0;
   margin-top: -1rem;
@@ -293,7 +292,6 @@ input:checked + .switch::after {
 
 .projects {
   background-color: #E4F2EB;
-  width: 100%;
   padding: 0 4rem 4rem 4rem;
 }
 .projects h2 {
