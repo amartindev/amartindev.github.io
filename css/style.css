@@ -553,7 +553,7 @@ footer a {
   font-family: "Press Start 2P";
 }
 .bits .navbar-brand {
-  font-size: 97%;
+  font-size: 100%;
 }
 .bits .blob {
   display: none;
@@ -566,6 +566,9 @@ footer a {
 }
 .bits .blob-bit .foto-perfil {
   max-width: 70%;
+}
+.bits .blob-bit h1, .bits .blob-bit h2 {
+  font-size: 80%;
 }
 .bits .switch-estilos, .bits .container-skills, .bits .hero-social {
   background: transparent;
