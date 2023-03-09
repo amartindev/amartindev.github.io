@@ -547,10 +547,13 @@ footer a {
 
 .bits {
   @import url("https://unpkg.com/nes.css/css/nes.css");
-  font-size: 88%;
+  font-size: 87%;
 }
 .bits h1, .bits h2, .bits h3, .bits h4, .bits p, .bits a, .bits button {
   font-family: "Press Start 2P";
+}
+.bits .navbar-brand {
+  font-size: 97%;
 }
 .bits .blob {
   display: none;
