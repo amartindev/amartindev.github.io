@@ -300,6 +300,9 @@ input:checked + .switch::after {
   text-align: center;
   padding: 2rem;
 }
+.projects p {
+  padding-bottom: 2rem;
+}
 .projects .galeria {
   display: grid;
   gap: 1rem;
@@ -362,6 +365,9 @@ input:checked + .switch::after {
 }
 .projects .tarjeta-project:hover .contenedor-enlaces {
   transform: scale(1);
+}
+.projects .tarjeta-project:hover .imagen-project {
+  border-radius: 15% 0 15% 0;
 }
 
 .contenedor-enlaces {
