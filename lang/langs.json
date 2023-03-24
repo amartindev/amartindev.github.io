@@ -1,0 +1,59 @@
+{
+    "eng": [
+        {
+        "profession": "Developper Web",
+        "hero-title": "Hello",
+        "hero-contain": "I am a constantly evolving web developer, currently following a Full-Stack developer roadmap to stay ahead of the curve in the industry. Check out my profile, projects and skills to learn more about my experience and commitment to success. Let's talk!",
+        "about-title": "About me",
+        "about-text": "I'm a web developer with a background in HTML, CSS, JavaScript, PHP, SQL, and Python, and skills in React, Bootstrap, Gulp, Git, GitHub, and MySQL. I am a continuous learner, analytical and detailed thinker, creative, organized and rigorous. I have effective communication and teamwork skills, and I strive to maintain high standards of quality and excellence in my work.",
+        "about-skill-title": "Skills",
+        "projects-title": "Projects",
+        "projects-text": "I invite you to learn about some of my projects, where you can see my experience in web development and the technologies I master. Each project represents a challenge for me and in them I have applied my skills to create innovative and effective solutions. I hope you like them!",
+        "project-1-text": "Rock and Electronic Music Festival page with photo gallery.",
+        "project-2-text": "Responsive webpage of a hamburger shop with functional shopping cart.",
+        "project-3-text": "Responsive site with customizable layout options, including light/dark mode and 8-bit mode. With support for multiple languages.",
+        "project-4-text": "Blog for coffee lovers with tips and courses.",
+        "project-5-text": "Simple calculator in javascript.",
+        "project-6-text": "Single Page Application of Studio Ghibli movies with JSON file.",
+        "contact-title": "Contact"
+        }
+    ],
+    "esp": [
+        {
+        "profession": "Desarrollador Web",
+        "hero-title": "Hola",
+        "hero-contain": "Soy un desarrollador web en constante evolución, actualmente siguiendo una hoja de ruta de desarrollador Full-Stack para estar a la vanguardia en la industria. Revisa mi perfil, proyectos y habilidades para conocer más sobre mi experiencia y compromiso con el éxito. ¡Hablemos!",
+        "about-title": "Sobre mi",
+        "about-text": "Soy un desarrollador web con experiencia en HTML, CSS, JavaScript, PHP, SQL y Python, y habilidades en React, Bootstrap, Gulp, Git, GitHub y MySQL. Soy un aprendiz continuo, pensador analítico y detallista, creativo, organizado y riguroso. Tengo habilidades efectivas de comunicación y trabajo en equipo, y me esfuerzo por mantener altos estándares de calidad y excelencia en mi trabajo.",
+        "about-skill-title": "Mis Habilidades",
+        "projects-title": "Proyectos",
+        "projects-text": "Te invito a conocer algunos de mis proyectos, donde podrás ver mi experiencia en desarrollo web y las tecnologías que domino. Cada proyecto representa un reto para mí y en ellos he aplicado mis habilidades para crear soluciones innovadoras y efectivas. ¡Espero que te gusten!",
+        "project-1-text": "Página de Festival de Rock y música Electronica con galería de fotos.",
+        "project-2-text": "Página web responsiva de una tienda de hamburguesas con carrito de compras funcional.",
+        "project-3-text": "Sitio responsivo con opciones de diseño personalizables, incluyendo modo de luz/oscuridad y modo de 8 bits. Con soporte para múltiples idiomas.",
+        "project-4-text": "Blog para amantes del café con consejos y cursos.",
+        "project-5-text": "Calculadora simple en javascript.",
+        "project-6-text": "Single Page Aplication de peliculas de Studio Ghibli con archivo JSON.",
+        "contact-title": "Contacto"
+        }
+    ],
+    "fr": [
+        {
+        "profession": "Développeur Web",
+        "hero-title": "Salut",
+        "hero-contain": "Je suis un développeur Web en constante évolution, suivant actuellement une feuille de route de développeur Full-Stack pour garder une longueur d'avance dans l'industrie. Consultez mon profil, mes projets et mes compétences pour en savoir plus sur mon expérience et mon engagement à réussir. Parlons!",
+        "about-title": "Sur moi",
+        "about-text": "Je suis un développeur Web avec une formation en HTML, CSS, JavaScript, PHP, SQL et Python, et des compétences en React, Bootstrap, Gulp, Git, GitHub et MySQL. Je suis un apprenant continu, un penseur analytique et détaillé, créatif, organisé et rigoureux. J'ai des compétences efficaces en communication et en travail d'équipe, et je m'efforce de maintenir des normes élevées de qualité et d'excellence dans mon travail.",
+        "about-skill-title": "Mes compétences",
+        "projects-title": "Projets",
+        "projects-text": "Je vous invite à découvrir quelques-uns de mes projets, où vous pourrez voir mon expérience en développement web et les technologies que je maîtrise. Chaque projet représente un défi pour moi et j'y ai appliqué mes compétences pour créer des solutions innovantes et efficaces. J'espère que tu les aimeras!",
+        "project-1-text": "Page du festival de musique rock et électronique avec galerie de photos.",
+        "project-2-text": "Page Web avec design adaptatif d'un magasin de hamburgers avec un panier fonctionnel.",
+        "project-3-text": "Site au design responsive avec des options de mise en page personnalisables, notamment le mode clair/sombre et le mode 8 bits. Avec prise en charge de plusieurs langues.",
+        "project-4-text": "Blog pour les amateurs de café avec des conseils et des cours.",
+        "project-5-text": "Calculatrice simple en javascript.",
+        "project-6-text": "Application monopage de films Studio Ghibli avec fichier JSON.",
+        "contact-title": "Contact"
+        }
+    ]
+}

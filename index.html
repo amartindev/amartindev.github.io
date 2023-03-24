@@ -55,9 +55,9 @@
                   Languages
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/lang/Index-en.html">🇬🇧 English</a></li>
-                  <li><a class="dropdown-item" href="https://amartindev.github.io/">🇪🇦 Spanish</a></li>
-                  <li><a class="dropdown-item" href="/lang/Index-fr.html">🇫🇷 French</a></li>
+                  <li><a class="dropdown-item btn-eng" href="#">🇬🇧 English</a></li>
+                  <li><a class="dropdown-item btn-esp" href="#">🇪🇦 Spanish</a></li>
+                  <li><a class="dropdown-item btn-fr" href="#">🇫🇷 French</a></li>
                 </ul>
               </li>
             </ul>
@@ -75,26 +75,26 @@
             <img class="foto-perfil" src="/img/perfil-bits.png" alt="foto perfil Antonio bits">
           </div>
           <h1>Antonio Martín</h1>
-          <h2>Desarrollador Web</h2>
-          <div class="botones-hero">
-            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+          <h2 id="profession"></h2>
+          <div class="botones-hero" id="btns-hero">
+            <!-- <div class="d-grid gap-2 d-md-flex justify-content-md-center">
               <a href="https://www.canva.com/design/DAE-7EMeJWY/ceteIbvIAbqha8rwnXN6Lg/view?website#4" target="_blank" rel="noopener noreferrer"><button class="boton-verde texto-oscuro btn me-md-2 btn-lg" type="button">CV</button></a>
               <div class="btn-group" role="group">
                 <button type="button" class="boton-verde texto-oscuro btn dropdown-toggle btn-lg" data-bs-toggle="dropdown" aria-expanded="false">
                   Idioma
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/lang/Index-en.html">🇬🇧 Inglés</a></li>
+                  <li><a class="dropdown-item btn-eng" href="#">🇬🇧 Inglés</a></li>
                   <li><a class="dropdown-item" href="/lang/Index-fr.html">🇫🇷 francés</a></li>
                 </ul>
               </div>              
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="contenedor-hero-text">
           <div class="hero-text texto-claro" id="hero-text">
-            <h2>Hola</h2>
-            <p>Soy un desarrollador web en constante evolución, actualmente siguiendo una hoja de ruta de desarrollador Full-Stack para estar a la vanguardia en la industria. Revisa mi perfil, proyectos y habilidades para conocer más sobre mi experiencia y compromiso con el éxito. ¡Hablemos!</p>
+            <h2 id="hero-title"></h2>
+            <p id="hero-contain"></p>
           </div>
           <div class="switch-estilos">
             <div class="container-switch">
@@ -124,15 +124,13 @@
     </section>
     <!-- About -->
     <section class="about" id="about">
-      <h2 class="texto-claro">Sobre mi</h2>
+      <h2 class="texto-claro" id="about-title"></h2>
       <div class="fila">
           <div class="container-texto">
-            <p class="texto-oscuro">
-              Soy un desarrollador web con experiencia en HTML, CSS, JavaScript, PHP, SQL y Python, y habilidades en React, Bootstrap, Gulp, Git, GitHub y MySQL. Soy un aprendiz continuo, pensador analítico y detallista, creativo, organizado y riguroso. Tengo habilidades efectivas de comunicación y trabajo en equipo, y me esfuerzo por mantener altos estándares de calidad y excelencia en mi trabajo.
-            </p>
+            <p class="texto-oscuro" id="about-text"></p>
           </div>
           <div class="container-skills texto-claro">
-            <h3>Mis Habilidades</h3>
+            <h3 id="about-skill-title"></h3>
             <div class="skills-logos">
               <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -184,8 +182,8 @@
     </section>
     <!-- Projects -->
     <section class="projects" id="projects">
-      <h2>Proyectos</h2>
-      <p>Te invito a conocer algunos de mis proyectos, donde podrás ver mi experiencia en desarrollo web y las tecnologías que domino. Cada proyecto representa un reto para mí y en ellos he aplicado mis habilidades para crear soluciones innovadoras y efectivas. ¡Espero que te gusten!</p>
+      <h2 id="projects-title"></h2>
+      <p id="projects-text"></p>
       <div class="galeria">
         <!-- Project 1 -->
         <div class="tarjeta-project">
@@ -194,7 +192,7 @@
           </div>
           <div class="contenedor-texto-project">
             <h4>Rock & EDM Festival</h4>
-            <p>Página de Festival de Rock y música Electronica con galería de fotos.</p>
+            <p id="project-1-text"></p>
             <div class="contenedor-tecnologias">
               <span class="badge rounded-pill text-bg-dark">HTML</span>
               <span class="badge rounded-pill text-bg-dark">CSS</span>
@@ -216,7 +214,7 @@
           </div>
           <div class="contenedor-texto-project">
             <h4>Burguer Shop</h4>
-            <p>Página web responsiva de una tienda de hamburguesas con carrito de compras funcional.</p>
+            <p id="project-2-text"></p>
             <div class="contenedor-tecnologias">
               <span class="badge rounded-pill text-bg-dark">HTML</span>
               <span class="badge rounded-pill text-bg-dark">CSS</span>
@@ -238,7 +236,7 @@
           </div>
           <div class="contenedor-texto-project">
             <h4>Portfolio Antonio Martín</h4>
-            <p>Sitio responsivo con opciones de diseño personalizables, incluyendo modo de luz/oscuridad y modo de 8 bits. Con soporte para múltiples idiomas.</p>
+            <p id="project-3-text"></p>
             <div class="contenedor-tecnologias">
               <span class="badge rounded-pill text-bg-dark">HTML</span>
               <span class="badge rounded-pill text-bg-dark">CSS</span>
@@ -247,6 +245,7 @@
               <span class="badge rounded-pill text-bg-dark">SASS</span>
               <span class="badge rounded-pill text-bg-dark">Bootstrap</span>
               <span class="badge rounded-pill text-bg-dark">Gulp</span>
+              <span class="badge rounded-pill text-bg-dark">JSON</span>
             </div>
           </div>
           <div class="contenedor-enlaces">
@@ -261,7 +260,7 @@
           </div>
           <div class="contenedor-texto-project">
             <h4>Blog de Café</h4>
-            <p>Blog para amantes del café con consejos y cursos.</p>
+            <p id="project-4-text"></p>
             <div class="contenedor-tecnologias">
               <span class="badge rounded-pill text-bg-dark">HTML</span>
               <span class="badge rounded-pill text-bg-dark">CSS</span>
@@ -280,7 +279,7 @@
           </div>
           <div class="contenedor-texto-project">
             <h4>Calculator JS</h4>
-            <p>Calculadora simple en javascript.</p>
+            <p id="project-5-text"></p>
             <div class="contenedor-tecnologias">
               <span class="badge rounded-pill text-bg-dark">HTML</span>
               <span class="badge rounded-pill text-bg-dark">CSS</span>
@@ -299,7 +298,7 @@
           </div>
           <div class="contenedor-texto-project">
             <h4>SPA Studio Ghibli</h4>
-            <p>Single Page Aplication de peliculas de Studio Ghibli con archivo JSON</p>
+            <p id="project-6-text"></p>
             <div class="contenedor-tecnologias">
               <span class="badge rounded-pill text-bg-dark">HTML</span>
               <span class="badge rounded-pill text-bg-dark">CSS</span>
@@ -316,7 +315,7 @@
     </section>
     <!-- Contact -->
     <section class="contact" id="contact">
-      <h2>Contacto</h2>
+      <h2 id="contact-title">Contacto</h2>
       <div class="contenedor-contacto">
         <a href="https://www.linkedin.com/in/amartindev/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i><p>LinkedIn</p></a>
         <a href="https://github.com/amartindev" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i><p>GitHub</p></a>
@@ -338,8 +337,6 @@
     <script src="/js/animation-dark-in.js"></script>
     <script src="/js/animation-bits.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <script src="/js/lang.js"></script>
 </body>
 </html>
