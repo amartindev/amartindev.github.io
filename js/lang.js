@@ -21,7 +21,7 @@ function actualizarBotones(lang) {
     switch (lang) {
     case "esp":
         idioma = "Idioma";
-        link = "https://www.canva.com/design/DAFd9GHI3Hc/Ep48VDhpUgeYNBmX-kCqFg/view?website#4";
+        link = "https://www.canva.com/design/DAFerbPrrho/YZikfIoj_rDl1w-H07g02g/view?website#4";
         botones = `
             <li><a class="dropdown-item btn-eng" href="#">🇬🇧 Inglés</a></li>
             <li><a class="dropdown-item btn-fr" href="#">🇫🇷 francés</a></li>
