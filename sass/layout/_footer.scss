@@ -1,0 +1,12 @@
+@use 'sass/base/variables' as v;
+@use 'sass/base/mixins' as m;
+
+footer {
+    background-color: v.$color8;
+    color: v.$blanco;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: v.$blanco;
+    }
+}

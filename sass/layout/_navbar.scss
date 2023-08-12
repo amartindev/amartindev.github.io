@@ -1,0 +1,30 @@
+@use 'sass/base/variables' as v;
+
+
+.navbar {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    .logo-navegacion {
+        width: 50px;
+    }
+
+    .dropdown-item:hover, .nav-link:hover {
+        background-color: transparent;
+        color: v.$gris;
+        text-shadow: 0 0 1px v.$blanco;
+    }
+}
+
+#navbarNavDropdown {
+    justify-content: right;
+}
+
+.navbar-glass, .dropdown-menu {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

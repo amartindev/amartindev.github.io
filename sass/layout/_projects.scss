@@ -1,0 +1,111 @@
+@use 'sass/base/variables' as v;
+@use 'sass/base/mixins' as m;
+
+.projects {
+    background-color: v.$color2;
+    padding: 0 4rem 4rem 4rem;
+    h2 {
+        text-align: center;
+        padding: 2rem;
+    }
+    p {
+        padding-bottom: 2rem;
+    }
+    .galeria {
+        display: grid;
+        @include m.telefono {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        @include m.tablet {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @include m.desktop {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @include m.desktopXL {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        gap: 1rem;
+             
+    }
+    .tarjeta-project {
+        position: relative;
+        grid-row: auto;
+        grid-column: auto;
+        overflow: hidden;
+    }
+    img {
+        width: 100%;
+    }
+    .contenedor-texto-project {
+        position: absolute;
+        margin-top: -2rem;
+        border-radius: 15% 0 15% 1rem ;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 2rem;
+        background: rgba((v.$color3), 0.4);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+        color: v.$negro;
+        transform: scale(0);
+        transform-origin: top;
+        transition: transform 0.3s ease-in-out;
+    }
+    .tarjeta-project:hover {
+        .contenedor-texto-project{
+            position: relative;
+            transform: scale(1);
+        }
+        .contenedor-enlaces {
+            transform: scale(1);
+        }
+        .imagen-project {
+            border-radius: 15% 0 15% 0 ;
+        }
+        transition: transform 0.2s ease-out;
+        transform: scale(1.1);
+        z-index: 10;
+    }
+}
+.contenedor-enlaces {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    border-radius: 5px 0 0 5px;
+    a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        color: v.$blanco;
+    }
+    transform: scale(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+    background: rgba((v.$color3), 0.4);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    span {
+        position: relative;
+        right: 0;
+        font-size: 0.9rem;
+        display: none;
+    }
+    a:hover {
+        transform: scale(112%);
+        span{
+            display: inline-block;
+        }
+    }
+}

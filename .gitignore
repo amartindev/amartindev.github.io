@@ -1,7 +1,7 @@
 node_modules/
-sass/
-.vscode/
-/gulpfile.js
-/package-lock.json
-/package.json
-img/original
+# sass/
+# .vscode/
+# /gulpfile.js
+# /package-lock.json
+# /package.json
+# img/original

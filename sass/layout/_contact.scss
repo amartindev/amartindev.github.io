@@ -1,0 +1,48 @@
+@use 'sass/base/variables' as v;
+@use 'sass/base/mixins' as m;
+
+.contact {
+    background-color: v.$color1;
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+    color: v.$blanco;
+    a {
+        text-decoration: none;
+        font-size: 3rem;
+        color: v.$blanco;
+    }
+    p {
+        font-size: 1rem;
+    }
+    a:hover {
+        transform: scale(112%);
+    }
+    .contenedor-contacto {
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+.contenedor-linea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .linea {
+    flex: 1;
+    height: 1px;
+    background-color: v.$blanco;
+  }
+  
+  .correo {
+    padding: 0 10px;
+    text-align: center;
+    a {
+        text-decoration: none;
+        font-size: 1rem;
+    }
+  }

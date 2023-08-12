@@ -1,0 +1,195 @@
+@use 'sass/base/variables' as v;
+@use 'sass/base/mixins' as m;
+
+.hero {
+    margin-bottom: 2rem;
+    .contenedor-hero-text, .contenedor-foto-perfil  {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor-foto-perfil {
+        margin-bottom: 2rem;
+    }
+    @include m.tablet {
+        .fila{
+            display: flex;
+            flex-direction: row;
+        }
+        .contenedor-foto-perfil {
+            width: 45%;
+        }
+        .contenedor-hero-text {
+            width: 55%;
+        }
+    }
+    .hero-text{
+        background-color: v.$color1;
+        padding: 2rem 4rem;
+        border-radius: 4px;
+        h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+@keyframes morph {
+    0%, 100% {
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    }
+    33% {
+        border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%;
+    }
+    66% {
+        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
+}
+.blob {
+    overflow: hidden;
+    width: 27rem;
+    height: 27rem;
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    background: v.$color3;
+    background-size: cover;
+    background-position: center;
+    animation: morph 3.75s linear infinite;
+}
+
+.foto-perfil{
+    width: 29rem;
+    top: 0;
+}
+
+
+.boton-verde {
+    background: rgba((v.$color3), 0.4);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    min-width: 10rem;
+}
+.boton-verde:hover {
+    background: rgba((v.$color1), 0.4);
+}
+.dropdown-item:hover {
+    background-color: transparent;
+    font-weight: bold;
+}
+.botones-hero .dropdown-menu {
+    width: 100%;
+}
+
+// Switchs de estilos
+
+.switch-estilos {
+    background: rgba((v.$color3), 0.4);
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    width: 400px;
+    height: 300px;
+    
+    margin-top: -24px;
+    margin-bottom: -24px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch-wrap {
+    cursor: pointer;
+    background: v.$color1;
+    padding: 5px;
+    width: 120px;
+    height: 65px;
+    border-radius: 33.5px;
+    rotate: 90deg;
+    input {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}
+.switch {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 0fr 1fr 1fr;
+    transition: .9s;
+    &::after {
+        content: '';
+        border-radius: 50%;
+        background: v.$color4;
+        grid-column: 2;
+        transition: background .2s;
+    }
+}
+input:checked {
+    + .switch {
+        grid-template-columns: 1fr 1fr 0fr; 
+        &::after {
+        background-color: v.$color3;
+        }
+    }
+}
+
+.container-switch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    i {
+        margin-top: -7rem;
+        margin-bottom: -7rem;
+        font-size: 2rem;
+    }
+
+}
+
+// Contacto y Redes en Hero
+
+.hero-social{
+    @include m.tablet {
+        position: absolute;
+        top: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: center;
+        transition: all 0.2s ease-in;
+        
+        a {
+            text-decoration: none;
+            font-size: 2rem;
+            padding: 0.5rem;
+            color: v.$blanco;
+        }
+    
+        background: rgba((v.$color3), 0.4);
+        border-radius: 5px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    
+        a:hover {
+            transform: scale(112%);
+        }
+    }
+    display: none;
+}
+
+// BITS
+
+.blob-bit {
+    display: none;
+}

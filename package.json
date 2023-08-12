@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amartindev/amartindev.github.io.git"
+  },
+  "keywords": [],
+  "author": "Antonio Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amartindev/amartindev.github.io/issues"
+  },
+  "homepage": "https://github.com/amartindev/amartindev.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-image": "^6.3.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.3"
+  }
+}

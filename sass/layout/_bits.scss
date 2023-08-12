@@ -1,0 +1,48 @@
+@use 'sass/base/variables' as v;
+@use 'sass/base/mixins' as m;
+
+.bits {
+    @import url('https://unpkg.com/nes.css/css/nes.css');
+    h1,h2,h3,h4,p,a, button {
+        font-family: 'Press Start 2P';
+    }
+    font-size: 87%;
+    .navbar-brand {
+        font-size: 100%;
+    }
+    .blob {
+        display: none;
+    }
+    .blob-bit {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem 0;
+        .foto-perfil {
+            max-width: 70%;
+        }
+        h1, h2 {
+            font-size: 80%;
+        }
+    }
+    .switch-estilos, .container-skills, .hero-social {
+        background: transparent;
+        box-shadow: none;
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+        border: 3px solid v.$color1;
+        margin: 30px;
+        border-radius:0;
+    }
+    .about {
+        .container-skills {
+            margin-right: 0;
+        }
+    }
+    .hero-social {
+        margin-left: 0;
+        a {
+        color: v.$negro;
+        }
+    }
+}
