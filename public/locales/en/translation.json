@@ -225,8 +225,8 @@
             "id": "project-06",
             "title": "Old Portafolio",
             "description": "Responsive website with customizable design options, featuring light/dark and 8-bit modes, along with multilingual support, built with React.js and Styled Components.",
-            "liveLink": "https://example.com/custom-layout",
-            "githubLink": "https://github.com/amartindev/custom-layout-site",
+            "liveLink": "https://oldportfolioamartindev.netlify.app",
+            "githubLink": "https://github.com/amartindev/oldPortfolio",
             "active": false,
             "gallery": [
                 "project-06-01",

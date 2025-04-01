@@ -120,3 +120,13 @@
     cursor: not-allowed;
     box-shadow: none;
 }
+
+
+@media (max-width: 480px) {
+    .right-contact{
+        width: 100%;
+    }
+    .contact-container{
+        margin: 0 1rem;
+    }
+}

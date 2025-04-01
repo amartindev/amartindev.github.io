@@ -19,6 +19,8 @@ body {
     place-items: center;
     width: 100% !important;
     min-height: 100vh;
+    overflow-x: hidden;
+
 }
 
 h1 {
