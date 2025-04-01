@@ -1,0 +1,122 @@
+.container-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.contact-container {
+    width: 420px;
+    padding: 20px;
+    background: rgba(192, 215, 213, 0.15);
+    -webkit-backdrop-filter: blur(15px) saturate(180%);
+    backdrop-filter: blur(15px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    text-align: center;
+}
+
+.contact-container h2 {
+    font-size: 24px;
+    color: var(--light-blue-2);
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 420px;
+    input::placeholder, textarea::placeholder  {
+        font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    }
+}
+
+/* Corrección para que los inputs no se salgan */
+.input-container {
+    width: 100%;
+    position: relative;
+    
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--light-blue);
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box; /* Evita que el padding haga que el input se salga */
+    margin: 5px 0;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #0ef;
+    box-shadow: 0 0 10px #0ef;
+    outline: none;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.button-contact-form {
+    padding: 12px;
+    background: linear-gradient(90deg, var(--teal), var(--light-blue-2));
+    color: var(--rich-black);
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-contact-form:hover {
+    background: linear-gradient(90deg, #1e90ff, #0ef);
+    box-shadow: 0 0 15px #0ef;
+}
+
+/* Estilos de error */
+.error {
+    position: absolute;
+    bottom: -12px;
+    left: 5px;
+    font-size: 12px;
+    color: #ff3860;
+}
+
+
+.success-message {
+    color: #0ef;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background: rgba(0, 255, 0, 0.2);
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Animación para suavizar la aparición del mensaje */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Estilos para el botón cuando está en estado de carga */
+.button-contact-form:disabled {
+    background: gray;
+    cursor: not-allowed;
+    box-shadow: none;
+}

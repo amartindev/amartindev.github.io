@@ -1,0 +1,27 @@
+.container-tech-hero {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    gap: 3rem;
+    cursor: none;
+    margin-top: 3rem;
+    img {
+        width: 2rem;
+    }
+}
+.tech-name {
+    color: var(--rich-black);
+    display: block;
+    text-shadow: 1px 1px 1px var(--light-blue-2), -1px -1px 1px var(--light-blue-2), 1px -1px 1px var(--light-blue-2), -1px 1px 1px var(--light-blue-2);
+}
+
+.tech-item {
+    cursor: none;
+}
+
+@media (max-width: 480px) {
+.container-tech-hero {
+
+    grid-template-columns: repeat(3 , 1fr);
+
+}
+}

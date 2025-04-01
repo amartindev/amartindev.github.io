@@ -1,0 +1,495 @@
+{
+    "about-title": "About me",
+    "profession": "Web Developer",
+    "hero-title": "Hello",
+    "hero-contain": "Hi, I'm Antonio Martin, a Full-Stack Web Developer specializing in Frontend with over 5 years of experience building scalable and optimized interfaces with MERN. I'm passionate about turning ideas into efficient digital solutions, focusing on performance, scalability, and user experience. Got a tech challenge? Let’s talk.",
+    "skill-title": "Skills",
+    "years": "years",
+    "techs": {
+        "hero": [
+            {
+                "id": "tech-01",
+                "name": "React.js",
+                "date": "01/01/2020",
+                "icon": "/assets/tech/React.js.png",
+                "hero": true
+            },
+            {
+                "id": "tech-02",
+                "name": "TypeScript",
+                "date": "01/01/2020",
+                "icon": "/assets/tech/TypeScript.png",
+                "hero": true
+            },
+            {
+                "id": "tech-03",
+                "name": "JavaScript",
+                "date": "01/01/2020",
+                "icon": "/assets/tech/JavaScript.png",
+                "hero": true
+            },
+            {
+                "id": "tech-04",
+                "name": "HTML",
+                "date": "01/01/2020",
+                "icon": "/assets/tech/HTML5.png",
+                "hero": true
+            },
+            {
+                "id": "tech-05",
+                "name": "CSS",
+                "date": "01/01/2020",
+                "icon": "/assets/tech/CSS3.png",
+                "hero": true
+            },
+            {
+                "id": "tech-06",
+                "name": "Redux",
+                "date": "01/01/2021",
+                "icon": "/assets/tech/Redux.png",
+                "hero": true
+            },
+            {
+                "id": "tech-07",
+                "name": "Node.js",
+                "date": "01/01/2022",
+                "icon": "/assets/tech/Node.js.png",
+                "hero": true
+            },
+            {
+                "id": "tech-08",
+                "name": "Tailwind CSS",
+                "date": "01/01/2020",
+                "icon": "/assets/tech/Tailwind CSS.png",
+                "hero": true
+            },
+            {
+                "id": "tech-09",
+                "name": "Sass",
+                "date": "01/01/2020",
+                "icon": "/assets/tech/Sass.png",
+                "hero": true
+            },
+            {
+                "id": "tech-10",
+                "name": "MongoDB",
+                "date": "01/01/2020",
+                "icon": "/assets/tech/MongoDB.png",
+                "hero": true
+            }
+        ],
+        "frontend": [
+            "React.js",
+            "Next.js",
+            "JavaScript",
+            "TypeScript",
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Tailwind CSS",
+            "Bootstrap",
+            "Material-UI",
+            "GSAP",
+            "Three.js",
+            "jQuery",
+            "Responsive Design",
+            "UX-UI"
+        ],
+        "backend": [
+            "Node.js",
+            "Express.js",
+            "SQL",
+            "NoSQL",
+            "Python",
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB",
+            "Supabase",
+            "Firebase"
+        ],
+        "tools": [
+            "Git",
+            "GitHub",
+            "Vercel",
+            "Netlify",
+            "Vite",
+            "VSCode",
+            "Gulp.js",
+            "Webpack",
+            "Postman",
+            "AWS",
+            "Figma",
+            "Adobe XD",
+            "Redux",
+            "REST APIs",
+            "OpenAI API",
+            "Scrum",
+            "Jira",
+            "WordPress",
+            "Agility CMS",
+            "Unbounce",
+            "Jebbit"
+        ]
+    },
+    "contact-title": "Contact",
+    "cv-link": "https://www.google.com",
+    "select-language":"Select language",
+    "techtitle": "Technologies used",
+    "projects-title": "Projects",
+    "all-projects":"All Projects",
+    "projects": [
+        {
+            "id": "project-01",
+            "title": "Solar System Explorer",
+            "description": "Discover the solar system in a captivating, interactive experience. Built with React and bundled using Vite, the app seamlessly blends AI-generated visuals with authentic NASA photography. It leverages a public API to deliver real-time data and immersive insights into our cosmic neighborhood.",
+            "liveLink": "https://solarsystemartin.netlify.app/",
+            "githubLink": "https://github.com/amartindev/SolarSystem",
+            "active": true,
+            "gallery": [
+                "project-01-01",
+                "project-01-02",
+                "project-01-03",
+                "project-01-04",
+                "project-01-05"
+            ],
+            "tech": [
+                "React.js",
+                "Three.js",
+                "Anime.js",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "Vite",
+                "Sass"
+            ]
+        },
+        {
+            "id": "project-02",
+            "title": "Fashion Store",
+            "description": "Responsive online fashion store built with React.js and Bootstrap, integrating a simulated API to manage products and shopping cart.",
+            "liveLink": "https://shopping-cart-kleidung.netlify.app/",
+            "githubLink": "https://github.com/amartindev/fashion-store",
+            "active": true,
+            "gallery": ["project-02-01", "project-02-02"],
+            "tech": [
+                "HTML5",
+                "Bootstrap",
+                "JavaScript",
+                "CSS3",
+                "Responsive Design"
+            ]
+        },
+        {
+            "id": "project-03",
+            "title": "Real Estate Website",
+            "description": "Responsive real estate website showcasing properties with a modern design. Developed using HTML, CSS, and vanilla JavaScript, enhanced with the Lightbox library for interactive image galleries.",
+            "liveLink": "https://tarazona.netlify.app/",
+            "githubLink": "https://github.com/amartindev/real-estate-website",
+            "active": true,
+            "gallery": [
+                "project-03-01",
+                "project-03-02",
+                "project-03-03",
+                "project-03-04"
+            ],
+            "tech": ["HTML5", "CSS3", "JavaScript", "Responsive Design"]
+        },
+        {
+            "id": "project-04",
+            "title": "Music Festival Page",
+            "description": "Promotional page for a rock and electronic music festival, featuring an interactive gallery and responsive design, developed using HTML, CSS, and JavaScript",
+            "liveLink": "https://amartindevfestivalmusica.netlify.app/",
+            "githubLink": "https://github.com/amartindev/music-festival-page",
+            "active": false,
+            "gallery": ["project-04-01", "project-04-02"],
+            "tech": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "Gulp.js",
+                "Sass",
+                "Responsive Design"
+            ]
+        },
+        {
+            "id": "project-05",
+            "title": "Hamburger Shop",
+            "description": "Responsive website for a hamburger shop featuring an interactive shopping cart and intuitive design, built using vanilla HTML, CSS, and JavaScript, and enhanced with libraries such as Bootstrap, Animate.js, and Swiper.",
+            "liveLink": "https://amartindevburguershop.netlify.app/",
+            "githubLink": "https://github.com/amartindev/hamburger-shop",
+            "active": true,
+            "gallery": ["project-05-01", "project-05-02"],
+            "tech": ["HTML5", "JavaScript", "CSS3", "Responsive Design"]
+        },
+        {
+            "id": "project-06",
+            "title": "Old Portafolio",
+            "description": "Responsive website with customizable design options, featuring light/dark and 8-bit modes, along with multilingual support, built with React.js and Styled Components.",
+            "liveLink": "https://example.com/custom-layout",
+            "githubLink": "https://github.com/amartindev/custom-layout-site",
+            "active": false,
+            "gallery": [
+                "project-06-01",
+                "project-06-02",
+                "project-06-03",
+                "project-06-04",
+                "project-06-05"
+            ],
+            "tech": [
+                "React.js",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "Sass",
+                "Gulp.js",
+                "Responsive Design",
+                "Material-UI"
+            ]
+        },
+        {
+            "id": "project-07",
+            "title": "Coffee Lovers Blog",
+            "description": "Blog for coffee enthusiasts featuring inspiring posts, practical tips, and specialized courses. Developed using HTML, CSS, JavaScript, and Sass, it’s fully optimized for SEO and top-notch performance, ensuring an exceptional user experience.",
+            "liveLink": "https://amartindevblogdecafe.netlify.app/",
+            "githubLink": "https://github.com/amartindev/coffee-blog",
+            "active": false,
+            "gallery": [
+                "project-07-01",
+                "project-07-02",
+                "project-07-03",
+                "project-07-04",
+                "project-07-05"
+            ],
+            "tech": ["HTML5", "JavaScript", "CSS3", "Responsive Design"]
+        },
+        {
+            "id": "project-08",
+            "title": "Landing H&S",
+            "description": "Landing page for Head&Shoulders featuring a minimalist and responsive design, developed using HTML, CSS, and JavaScript. It includes a dynamic countdown, an interactive Bootstrap-based form, and smooth animations that enhance the user experience.",
+            "liveLink": "https://landing-hs.netlify.app/",
+            "githubLink": "https://github.com/amartindev/landing-hs",
+            "active": true,
+            "gallery": ["project-08-01", "project-08-02"],
+            "tech": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "Bootstrap",
+                "Responsive Design"
+            ]
+        },
+        {
+            "id": "project-09",
+            "title": "Studio Ghibli SPA",
+            "description": "Single-page application showcasing Studio Ghibli movies. Developed using HTML, CSS, and vanilla JavaScript, it dynamically loads data from a JSON file and features a clean, responsive design for an immersive viewing experience.",
+            "liveLink": "https://spa-ghibli.netlify.app/",
+            "githubLink": "https://github.com/amartindev/studio-ghibli-spa",
+            "active": false,
+            "gallery": ["project-09-01", "project-09-02"],
+            "tech": ["HTML5", "JavaScript", "CSS3"]
+        },
+        {
+            "id": "project-10",
+            "title": "NeoTokio",
+            "description": "NeoTokyo is an interactive website with advanced animations, developed using React.js. In addition to dynamic effects powered by GSAP and Anime.js, it leverages React.js Router for seamless navigation and Tailwind CSS for a modern, responsive design, creating an immersive digital experience.",
+            "liveLink": "https://neotokyoam.netlify.app/",
+            "githubLink": "https://github.com/amartindev/animated-showcase",
+            "active": true,
+            "gallery": ["project-10-01", "project-10-02", "project-10-03"],
+            "tech": [
+                "React.js",
+                "Vite",
+                "GSAP",
+                "Anime.js",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "Sass",
+                "Responsive Design"
+            ]
+        },
+        {
+            "id": "project-11",
+            "title": "ARJ",
+            "description": "Landing page for a home finishing company featuring a professional and responsive design. Developed with React.js and Bootstrap, it delivers a modern, intuitive user experience that enhances navigation and highlights service details.",
+            "liveLink": "https://acabadosarj.netlify.app/",
+            "githubLink": "https://github.com/amartindev/apartment-finishing",
+            "active": true,
+            "gallery": ["project-11-01", "project-11-02", "project-11-03"],
+            "tech": [
+                "React.js",
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "Bootstrap",
+                "Responsive Design"
+            ]
+        },
+        {
+            "id": "project-12",
+            "title": "New Tic Tac Toe Game",
+            "description": "Classic and enhanced Tic Tac Toe game implemented in React.js, featuring both classic and infinite modes, offering an interactive and modern experience.",
+            "liveLink": "https://tictactoe-amartindev.netlify.app/",
+            "githubLink": "https://github.com/amartindev/tic-tac-toe",
+            "active": false,
+            "gallery": ["project-12-01", "project-12-02"],
+            "tech": [
+                "React.js",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "Responsive Design"
+            ]
+        },
+        {
+            "id": "project-13",
+            "title": "Movies",
+            "description": "An interactive web application for searching and exploring movies in real-time using The Movie Database (TMDb) API. Built with Next.js and React.js, it features a sleek interface powered by Tailwind CSS and a smooth user experience with asynchronous JavaScript.",
+            "liveLink": "https://antonio-movies.netlify.app/",
+            "githubLink": "https://github.com/amartindev/movies",
+            "active": true,
+            "gallery": [
+                "project-13-01",
+                "project-13-02",
+                "project-13-03",
+                "project-13-04"
+            ],
+            "tech": [
+                "Next.js",
+                "React.js",
+                "JavaScript",
+                "Tailwind CSS",
+                "Responsive Design"
+            ]
+        }
+    ],
+    "experience-title": "Experience & Education",
+    "experience": [
+        {
+            "title": "Professional Technologist in Information Systems Analysis and Development",
+            "institution": "Fundación Universitaria Compensar",
+            "date": "2025",
+            "type": "Education",
+            "certification": ""
+        },
+        {
+            "title": "Webmaster - Frontend",
+            "institution": "Digitas - Publicis Groupe",
+            "date": "2023 - 2024",
+            "type": "Experience",
+            "certification": ""
+        },
+        {
+            "title": "Master in APIs RESTful with NodeJS",
+            "institution": "Udemy",
+            "date": "2024",
+            "type": "Course",
+            "certification": "https://www.udemy.com/certificate/UC-69a72c3b-3b16-4f07-a15f-115bd9ee83d9/"
+        },
+        {
+            "title": "React and TypeScript",
+            "institution": "Udemy",
+            "date": "2024",
+            "type": "Course",
+            "certification": "https://www.udemy.com/certificate/UC-a5ab5fc4-58e9-4f7d-80c1-4e7346932620/"
+        },
+        {
+            "title": "TypeScript for Professionals",
+            "institution": "Udemy",
+            "date": "2024",
+            "type": "Course",
+            "certification": "https://www.udemy.com/certificate/UC-5f51ec0a-71ad-44c8-ab6e-d6f353feb384/"
+        },
+        {
+            "title": "Master Three.js Scrollable pages with GSAP",
+            "institution": "Udemy",
+            "date": "2024",
+            "type": "Course",
+            "certification": "https://www.udemy.com/certificate/UC-fff63544-6202-49e7-8d35-c6e90ab3eeda/"
+        },
+        {
+            "title": "Complete Web Development with HTML5, CSS3, JS, AJAX, PHP, and MySQL",
+            "institution": "Udemy",
+            "date": "2024",
+            "type": "Course",
+            "certification": "https://www.udemy.com/certificate/UC-65427607-54b0-4b79-998f-9370441b689e/"
+        },
+        {
+            "title": "Web Developer",
+            "institution": "Freelance",
+            "date": "2020 - 2023",
+            "type": "Experience",
+            "certification": ""
+        },
+        {
+            "title": "Full Stack Web Development - FrontEnd & BackEnd",
+            "institution": "U de Cataluña",
+            "date": "2023",
+            "type": "Education",
+            "certification": "https://www.ucatalunya.edu.co/certificados/2LXNN"
+        },
+        {
+            "title": "Project Management in Agile Environments - SCRUM Emphasis",
+            "institution": "U de Cataluña",
+            "date": "2023",
+            "type": "Education",
+            "certification": "https://www.ucatalunya.edu.co/certificados/ZR8QW"
+        },
+        {
+            "title": "JavaScript Algorithms and Data Structures",
+            "institution": "freeCodeCamp",
+            "date": "2022",
+            "type": "Course",
+            "certification": "https://www.freecodecamp.org/certification/AMartinDev/javascript-algorithms-and-data-structures"
+        },
+        {
+            "title": "Professional Technician in Database Analysis and Design",
+            "institution": "Fundación Universitaria Compensar",
+            "date": "2021",
+            "type": "Education",
+            "certification": ""
+        },
+        {
+            "title": "Design Patterns in JavaScript and TypeScript",
+            "institution": "Udemy",
+            "date": "2021",
+            "type": "Course",
+            "certification": "https://www.udemy.com/certificate/UC-9352f8ed-3603-450f-9883-3132dfddf89b/"
+        },
+        {
+            "title": "GitHub for Developers and Professional Course in Git and GitHub",
+            "institution": "LinkedIn and Platzi",
+            "date": "2021",
+            "type": "Course",
+            "certification": "https://www.linkedin.com/learning/certificates/fde1c9713290fd3f9dad7a85e349bcfe4f790286c5bc87bed6b78a2b1600a2cc"
+        },
+        {
+            "title": "Responsive Web Design",
+            "institution": "freeCodeCamp",
+            "date": "2021",
+            "type": "Course",
+            "certification": "https://www.freecodecamp.org/certification/AMartinDev/responsive-web-design"
+        }
+    ],
+    "contact": 
+        {
+            "contact":"Contact",
+            "title": "Get in touch",
+            "text": "Looking to collaborate, hire a developer, or discuss a project? Feel free to reach out!",
+            "email-me":"Email me",
+            "form": [{
+                "send": "Send a Message",
+                "name": "Name",
+                "email": "Email",
+                "message": "Message",
+                "submit": "Submit",
+                "req-name": "Please enter your name",
+                "req-mail": "Please enter a valid email address",
+                "req-message": "Please enter your message",
+                "error": "There was an error sending the message. Please try again.",
+                "sending":"Sending...",
+                "success-message":"Your message has been sent successfully!"
+            }]
+        }
+    
+}
