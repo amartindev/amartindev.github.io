@@ -140,7 +140,7 @@
 @media (max-width: 768px) {
     .title-skills {
         margin-top: 3rem;
-        font-size: 5rem;
+        font-size: 17vw;
     }
     .container-tech-skills {
         display: flex;
