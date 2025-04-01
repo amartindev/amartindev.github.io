@@ -244,8 +244,8 @@
             "id": "project-06",
             "title": "Ancien Portfolio",
             "description": "Site web responsive avec des options de design personnalisables, incluant des modes clair/sombre et en 8 bits, ainsi qu'un support multilingue, construit avec React.js et Styled Components.",
-            "liveLink": "https://example.com/custom-layout",
-            "githubLink": "https://github.com/amartindev/custom-layout-site",
+            "liveLink": "https://oldportfolioamartindev.netlify.app",
+            "githubLink": "https://github.com/amartindev/oldPortfolio",
             "active": false,
             "gallery": [
                 "project-06-01",
