@@ -20,7 +20,6 @@ body {
     width: 100% !important;
     min-height: 100vh;
     overflow-x: hidden;
-
 }
 
 h1 {
@@ -28,15 +27,16 @@ h1 {
     line-height: 1.1;
 }
 
-
+@media (max-width: 480px) {
+    *:not(.simulator) {
+        cursor: none !important;
+    }
+}
 
 /* COLORS */
 
 :root {
-
     --white: #f0f0f0;
-
-
 
     --rich-black: rgb(3, 23, 22);
     --midnight-green: rgb(11, 65, 64);

@@ -43,3 +43,8 @@ padding-top: 2rem;
 
 }
 
+@media (max-width: 480px) {
+    .time-line-experience{
+        padding-top: 3rem;
+    }
+}

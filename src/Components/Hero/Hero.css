@@ -254,6 +254,9 @@ a {
         flex-direction: column;
         height: auto;
     }
+    .hero-title{
+        padding: 2rem 0;
+    }
     .container-left-hero{
         margin-top: 60px;
         .github{

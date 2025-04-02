@@ -145,6 +145,7 @@
     .container-tech-skills {
         display: flex;
         flex-direction: column;
+        padding-top: 6rem;
     }
     .container-front-skills, .container-back-skills, .container-tools-skills  {
         height: auto;
