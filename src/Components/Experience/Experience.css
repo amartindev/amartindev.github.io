@@ -47,4 +47,8 @@ padding-top: 2rem;
     .time-line-experience{
         padding-top: 3rem;
     }
+    .vertical-timeline::before{
+        top: 3rem;
+        height: calc(100% - 3rem);
+    }
 }

@@ -133,3 +133,13 @@
     text-shadow: 1px 1px 1px var(--light-blue), -1px -1px 1px var(--light-blue),
         1px -1px 1px var(--light-blue), -1px 1px 1px var(--light-blue);
 }
+
+@media (max-width: 768px) {
+    .modal-container-tech{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
