@@ -7,6 +7,9 @@ export default function NavBar() {
     const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
 
+    const handleLinkClick = () => {
+        setIsOpen(false);
+    };
 
     return (
         <div className="navbar">
@@ -16,7 +19,7 @@ export default function NavBar() {
             </div>
 
             <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
-                {isOpen ? <i className='bi bi-x-lg'></i> : <i className="bi bi-list"></i> }
+                {isOpen ? <i className='bi bi-x-lg'></i> : <i className="bi bi-list"></i>}
             </div>
 
             <ul className={`nav-links ${isOpen ? "active-hamburger" : ""}`}>
@@ -29,6 +32,7 @@ export default function NavBar() {
                         activeClass="active"
                         isDynamic={true}
                         offset={-50}
+                        onClick={handleLinkClick}
                     >
                         {t("about-title")}
                     </Link>
@@ -42,6 +46,7 @@ export default function NavBar() {
                         activeClass="active"
                         isDynamic={true}
                         offset={-50}
+                        onClick={handleLinkClick}
                     >
                         {t("projects-title")}
                     </Link>
@@ -55,6 +60,7 @@ export default function NavBar() {
                         activeClass="active"
                         isDynamic={true}
                         offset={-50}
+                        onClick={handleLinkClick}
                     >
                         {t("skill-title")}
                     </Link>
@@ -68,6 +74,7 @@ export default function NavBar() {
                         activeClass="active"
                         isDynamic={true}
                         offset={-50}
+                        onClick={handleLinkClick}
                     >
                         {t("experience-title")}
                     </Link>
@@ -81,6 +88,7 @@ export default function NavBar() {
                         activeClass="active"
                         isDynamic={true}
                         offset={-50}
+                        onClick={handleLinkClick}
                     >
                         {t("contact-title")}
                     </Link>

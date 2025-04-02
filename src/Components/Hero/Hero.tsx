@@ -16,10 +16,14 @@ export default function Hero({ changeLanguage }: HeroProps) {
     const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
 
+    const handleLanguageChange = (lng: "en" | "es" | "fr") => {
+        changeLanguage(lng);
+        setIsOpen(false);
+    };
+
     return (
         <>
             <div className='container-hero' id='about'>
-
                 <div className='container-left-hero'>
                     <div className='container-profile-picture'>
                         <Magnet
@@ -76,13 +80,13 @@ export default function Hero({ changeLanguage }: HeroProps) {
                             </button>
                             {isOpen && (
                                 <div className='dropdown-content'>
-                                    <a onClick={() => changeLanguage("en")}>
+                                    <a onClick={() => handleLanguageChange("en")}>
                                         English
                                     </a>
-                                    <a onClick={() => changeLanguage("es")}>
+                                    <a onClick={() => handleLanguageChange("es")}>
                                         Español
                                     </a>
-                                    <a onClick={() => changeLanguage("fr")}>
+                                    <a onClick={() => handleLanguageChange("fr")}>
                                         Français
                                     </a>
                                 </div>
