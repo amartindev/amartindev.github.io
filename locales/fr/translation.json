@@ -137,6 +137,7 @@
     "techtitle": "Technologies utilisées",
     "projects-title": "Projets",
     "all-projects": "Tous les projets",
+    "hide-projects": "Masquer les projets",
     "projects": [
         {
             "id": "project-01",
