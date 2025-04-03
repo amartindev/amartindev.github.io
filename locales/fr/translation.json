@@ -140,12 +140,124 @@
     "hide-projects": "Masquer les projets",
     "projects": [
         {
+            "id": "project-16",
+            "title": "Promotions Interactives Oral-B",
+            "description": "Une page web entièrement interactive et responsive pour Oral-B, conçue pour présenter des promotions, des informations sur la garantie et des détails sur les produits. Développée avec Unbounce, HTML, CSS et PHP, cette landing page offre une expérience utilisateur fluide sur tous les appareils.",
+            "liveLink": "",
+            "githubLink": "",
+            "active": true,
+            "gallery": [
+                "project-16-01",
+                "project-16-02",
+                "project-16-03",
+                "project-16-04",
+                "project-16-05",
+                "project-16-06",
+                "project-16-07"
+            ],
+            "tech": ["Unbounce", "HTML5", "CSS3", "PHP", "Responsive Design"]
+        },
+        {
+            "id": "project-17",
+            "title": "HairCode - Guide de Soins Capillaires P&G",
+            "description": "Une plateforme web dynamique et responsive développée pour P&G, offrant des informations détaillées sur divers produits capillaires. HairCode propose des recommandations personnalisées en fonction du type de cheveux, des conseils d'experts et des routines de soins capillaires. La plateforme comprend également des articles de blog, des liens d'achat de produits et des guides de coiffure pour aider les utilisateurs à obtenir leur meilleur look.",
+            "liveLink": "https://haircodes-publicis.netlify.app/",
+            "githubLink": "https://github.com/juanset-publicis/HairCode-Pages",
+            "active": true,
+            "gallery": [
+                "project-17-01",
+                "project-17-02",
+                "project-17-03",
+                "project-17-04",
+                "project-17-05",
+                "project-17-06",
+                "project-17-07",
+                "project-17-08",
+                "project-17-09",
+                "project-17-10",
+                "project-17-11",
+                "project-17-12",
+                "project-17-13",
+                "project-17-14",
+                "project-17-15",
+                "project-17-16",
+                "project-17-17",
+                "project-17-18",
+                "project-17-19",
+                "project-17-20"
+            ],
+            "tech": [
+                "React.js",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "Responsive Design"
+            ]
+        },
+        {
+            "id": "project-08",
+            "title": "Landing H&S",
+            "description": "Page de destination pour Head&Shoulders avec un design minimaliste et responsive, développée en utilisant HTML, CSS et JavaScript. Elle comprend un compte à rebours dynamique, un formulaire interactif basé sur Bootstrap et des animations fluides qui améliorent l'expérience utilisateur.",
+            "liveLink": "https://landing-hs.netlify.app/",
+            "githubLink": "https://github.com/amartindev/landing-hs",
+            "active": true,
+            "gallery": ["project-08-01", "project-08-02"],
+            "tech": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "Bootstrap",
+                "Responsive Design"
+            ]
+        },
+        {
+            "id": "project-15",
+            "title": "Guide Intelligent Oral-B",
+            "description": "Une expérience numérique interactive conçue pour Oral-B, aidant les utilisateurs à trouver la brosse à dents électrique idéale grâce à un questionnaire personnalisé. Développée avec Jebbit, PHP, HTML et CSS, cette expérience propose des recommandations adaptées et des conseils d’experts pour améliorer l’hygiène bucco-dentaire quotidienne.",
+            "liveLink": "",
+            "githubLink": "",
+            "active": true,
+            "gallery": [
+                "project-15-01",
+                "project-15-02",
+                "project-15-03",
+                "project-15-04",
+                "project-15-05",
+                "project-15-06",
+                "project-15-07",
+                "project-15-08",
+                "project-15-09",
+                "project-15-10",
+                "project-15-11",
+                "project-15-12"
+            ],
+            "tech": ["HTML5", "CSS3", "PHP", "Jebbit"]
+        },
+        {
+            "id": "project-14",
+            "title": "Extracteur de Pages PDF",
+            "description": "Une application web permettant de diviser des fichiers PDF de toute taille en plusieurs plages de pages sans aucune restriction. Développée avec React, TypeScript et Tailwind CSS, cet outil offre un moyen efficace et fluide d'extraire et d'organiser le contenu des PDF.",
+            "liveLink": "https://ruba-split-pdf.netlify.app/",
+            "githubLink": "",
+            "active": true,
+            "gallery": ["project-14-01"],
+            "tech": [
+                "React.js",
+                "TypeScript",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "Tailwind CSS",
+                "Vite"
+            ]
+        },
+        {
             "id": "project-01",
             "title": "Explorateur du système solaire",
             "description": "Découvrez le système solaire dans une expérience interactive captivante. Construit avec React et packagé avec Vite, l'application combine harmonieusement des visuels générés par IA et des photographies authentiques de la NASA. Elle exploite une API publique pour fournir des données en temps réel et des perspectives immersives sur notre voisinage cosmique.",
             "liveLink": "https://solarsystemartin.netlify.app/",
             "githubLink": "https://github.com/amartindev/SolarSystem",
-            "active": true,
+            "active": false,
             "gallery": [
                 "project-01-01",
                 "project-01-02",
@@ -170,11 +282,8 @@
             "description": "Boutique en ligne responsive construite avec React.js et Bootstrap, intégrant une API simulée pour gérer les produits et le panier d'achats.",
             "liveLink": "https://shopping-cart-kleidung.netlify.app/",
             "githubLink": "https://github.com/amartindev/fashion-store",
-            "active": true,
-            "gallery": [
-                "project-02-01",
-                "project-02-02"
-            ],
+            "active": false,
+            "gallery": ["project-02-01", "project-02-02"],
             "tech": [
                 "HTML5",
                 "Bootstrap",
@@ -196,12 +305,7 @@
                 "project-03-03",
                 "project-03-04"
             ],
-            "tech": [
-                "HTML5",
-                "CSS3",
-                "JavaScript",
-                "Responsive Design"
-            ]
+            "tech": ["HTML5", "CSS3", "JavaScript", "Responsive Design"]
         },
         {
             "id": "project-04",
@@ -210,10 +314,7 @@
             "liveLink": "https://amartindevfestivalmusica.netlify.app/",
             "githubLink": "https://github.com/amartindev/music-festival-page",
             "active": false,
-            "gallery": [
-                "project-04-01",
-                "project-04-02"
-            ],
+            "gallery": ["project-04-01", "project-04-02"],
             "tech": [
                 "HTML5",
                 "CSS3",
@@ -229,17 +330,9 @@
             "description": "Site web responsive pour une boutique de hamburgers présentant un panier d'achats interactif et un design intuitif, construit avec HTML, CSS et JavaScript vanilla, et enrichi avec des bibliothèques telles que Bootstrap, Animate.js et Swiper.",
             "liveLink": "https://amartindevburguershop.netlify.app/",
             "githubLink": "https://github.com/amartindev/hamburger-shop",
-            "active": true,
-            "gallery": [
-                "project-05-01",
-                "project-05-02"
-            ],
-            "tech": [
-                "HTML5",
-                "JavaScript",
-                "CSS3",
-                "Responsive Design"
-            ]
+            "active": false,
+            "gallery": ["project-05-01", "project-05-02"],
+            "tech": ["HTML5", "JavaScript", "CSS3", "Responsive Design"]
         },
         {
             "id": "project-06",
@@ -280,32 +373,9 @@
                 "project-07-04",
                 "project-07-05"
             ],
-            "tech": [
-                "HTML5",
-                "JavaScript",
-                "CSS3",
-                "Responsive Design"
-            ]
+            "tech": ["HTML5", "JavaScript", "CSS3", "Responsive Design"]
         },
-        {
-            "id": "project-08",
-            "title": "Landing H&S",
-            "description": "Page de destination pour Head&Shoulders avec un design minimaliste et responsive, développée en utilisant HTML, CSS et JavaScript. Elle comprend un compte à rebours dynamique, un formulaire interactif basé sur Bootstrap et des animations fluides qui améliorent l'expérience utilisateur.",
-            "liveLink": "https://landing-hs.netlify.app/",
-            "githubLink": "https://github.com/amartindev/landing-hs",
-            "active": true,
-            "gallery": [
-                "project-08-01",
-                "project-08-02"
-            ],
-            "tech": [
-                "HTML5",
-                "CSS3",
-                "JavaScript",
-                "Bootstrap",
-                "Responsive Design"
-            ]
-        },
+
         {
             "id": "project-09",
             "title": "SPA Studio Ghibli",
@@ -313,15 +383,8 @@
             "liveLink": "https://spa-ghibli.netlify.app/",
             "githubLink": "https://github.com/amartindev/studio-ghibli-spa",
             "active": false,
-            "gallery": [
-                "project-09-01",
-                "project-09-02"
-            ],
-            "tech": [
-                "HTML5",
-                "JavaScript",
-                "CSS3"
-            ]
+            "gallery": ["project-09-01", "project-09-02"],
+            "tech": ["HTML5", "JavaScript", "CSS3"]
         },
         {
             "id": "project-10",
@@ -330,11 +393,7 @@
             "liveLink": "https://neotokyoam.netlify.app/",
             "githubLink": "https://github.com/amartindev/animated-showcase",
             "active": true,
-            "gallery": [
-                "project-10-01",
-                "project-10-02",
-                "project-10-03"
-            ],
+            "gallery": ["project-10-01", "project-10-02", "project-10-03"],
             "tech": [
                 "React.js",
                 "Vite",
@@ -354,11 +413,7 @@
             "liveLink": "https://acabadosarj.netlify.app/",
             "githubLink": "https://github.com/amartindev/apartment-finishing",
             "active": true,
-            "gallery": [
-                "project-11-01",
-                "project-11-02",
-                "project-11-03"
-            ],
+            "gallery": ["project-11-01", "project-11-02", "project-11-03"],
             "tech": [
                 "React.js",
                 "HTML5",
@@ -375,10 +430,7 @@
             "liveLink": "https://tictactoe-amartindev.netlify.app/",
             "githubLink": "https://github.com/amartindev/tic-tac-toe",
             "active": false,
-            "gallery": [
-                "project-12-01",
-                "project-12-02"
-            ],
+            "gallery": ["project-12-01", "project-12-02"],
             "tech": [
                 "React.js",
                 "JavaScript",
