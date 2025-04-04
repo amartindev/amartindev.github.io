@@ -37,17 +37,15 @@
     position: absolute;
     font-size: 15rem;
     margin: 0 auto;
-    /* color: rgba(192, 215, 213, 0.15); */
     left: 50%;
     transform: translate(-50%, -3rem);
     text-transform: uppercase;
-    /* background: linear-gradient(0deg, rgba(3, 23, 22, 0.1) 0%, rgb(3, 23, 22) 100%); */
-    background: linear-gradient(
+    /* background: linear-gradient(
         0deg,
         rgba(3, 23, 22, 0.1) 0%,
         rgb(3, 23, 22) 100%
-    );
-
+    ); */
+    background: linear-gradient(0deg, rgba(0, 3, 3, 0) 0%, rgba(37, 255, 248, 0.26) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
