@@ -197,6 +197,7 @@ a {
 }
 
 .circle-background {
+    transform: translate(-30px, 56px); /* antes none post -30px, 56px imagen animada  */
     position: absolute;
     display: inline-block;
     width: 300px;
@@ -209,10 +210,11 @@ a {
 }
 
 .profile-picture {
-    width: 300px;
+    width: 240px; /* antes auto post 240px imagen animada  */
     height: auto;
     position: relative;
     z-index: 2;
+    transform: translateY(-4px); /* antes none post -4px imagen animada  */
 }
 
 .button-link {

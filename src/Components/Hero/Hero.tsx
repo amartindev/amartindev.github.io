@@ -65,7 +65,7 @@ export default function Hero({ changeLanguage }: HeroProps) {
                         <div className='circle-background'></div>
                         <img
                             className='profile-picture'
-                            src='/assets/profile.png'
+                            src='/assets/profile-animated2.png'
                             alt='Profile Pic'
                         />
                     </div>
