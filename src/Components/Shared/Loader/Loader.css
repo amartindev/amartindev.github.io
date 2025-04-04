@@ -1,0 +1,32 @@
+.loader-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--rich-black);
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+  }
+  
+  .loader-icon {
+    width: 80px;
+    height: 80px;
+    animation: pulse 1.5s infinite alternate;
+    filter: drop-shadow(0 0 10px #00ffff);
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      filter: drop-shadow(0 0 5px #00ffff);
+    }
+    100% {
+      transform: scale(1.2);
+      filter: drop-shadow(0 0 20px #00ffff);
+    }
+  }
+  
