@@ -1,4 +1,4 @@
-import React, {
+import {
   useState,
   useEffect,
   useRef,
@@ -17,7 +17,7 @@ interface MagnetProps extends HTMLAttributes<HTMLDivElement> {
   innerClassName?: string;
 }
 
-const Magnet: React.FC<MagnetProps> = ({
+export const Magnet: React.FC<MagnetProps> = ({
   children,
   padding = 100,
   disabled = false,
@@ -91,5 +91,3 @@ const Magnet: React.FC<MagnetProps> = ({
     </div>
   );
 };
-
-export default Magnet;

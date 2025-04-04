@@ -1,11 +1,11 @@
-import "./ProjectModal.css";
+import { useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.css";
 import { EffectCards, Navigation, Autoplay } from "swiper/modules";
 import { Tooltip } from "react-tooltip";
-import { useEffect } from "react";
 import anime from "animejs/lib/anime.es.js";
+import "./Modal.css";
+import "swiper/swiper-bundle.css";
 
 type Project = {
     id: string;
@@ -19,13 +19,13 @@ type Project = {
     tech: string[];
 };
 
-interface ProjectModalProps {
+interface ModalProps {
     project: Project | null;
     title: string;
     onClose: () => void;
 }
 
-const ProjectModal: React.FC<ProjectModalProps> = ({
+export const Modal: React.FC<ModalProps> = ({
     project,
     title,
     onClose,
@@ -149,5 +149,3 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
         </AnimatePresence>
     );
 };
-
-export default ProjectModal;

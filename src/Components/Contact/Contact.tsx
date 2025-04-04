@@ -1,8 +1,8 @@
-import ContactForm from "../Shared/ContactForm/ContactForm";
+import {ContactForm} from "../Shared";
 import { useTranslation } from "react-i18next";
 import "./Contact.css";
 
-export default function Contact() {
+export const Contact =() => {
     const { t } = useTranslation();
     const contactData = t("contact", { returnObjects: true }) as Record<
         string,

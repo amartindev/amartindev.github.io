@@ -55,7 +55,7 @@ export interface RotatingTextProps
   elementLevelClassName?: string;
 }
 
-const RotatingText = forwardRef<RotatingTextRef, RotatingTextProps>(
+export const RotatingText = forwardRef<RotatingTextRef, RotatingTextProps>(
   (props, ref) => {
     const {
       texts,
@@ -269,4 +269,3 @@ const RotatingText = forwardRef<RotatingTextRef, RotatingTextProps>(
 );
 
 RotatingText.displayName = "RotatingText";
-export default RotatingText;

@@ -12,7 +12,7 @@ type Tech = {
     hero: boolean;
 };
 
-export default function TechHero() {
+export const TechHero = () => {
     const { t } = useTranslation();
     const heroTech = t("techs.hero", { returnObjects: true }) as Tech[];
     const activesHeroTech = heroTech.filter((tech) => tech.hero);

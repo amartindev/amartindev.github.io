@@ -9,7 +9,7 @@ interface FormInputs {
     message: string;
 }
 
-const ContactForm: React.FC = () => {
+export const ContactForm: React.FC = () => {
     const [isLoading, setIsLoading] = useState(false);
     const [successMessage, setSuccessMessage] = useState("");
     const { t } = useTranslation();
@@ -116,4 +116,3 @@ const ContactForm: React.FC = () => {
     );
 };
 
-export default ContactForm;

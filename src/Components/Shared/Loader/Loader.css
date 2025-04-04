@@ -1,4 +1,4 @@
-.loader-container {
+.loader-container-intro {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -10,16 +10,16 @@
     width: 100vw;
     height: 100vh;
     z-index: 9999;
+    
+    .loader-icon-intro {
+      width: 80px;
+      height: 80px;
+      animation: pulse-intro 1.5s infinite alternate;
+      filter: drop-shadow(0 0 10px #00ffff);
+    }
   }
   
-  .loader-icon {
-    width: 80px;
-    height: 80px;
-    animation: pulse 1.5s infinite alternate;
-    filter: drop-shadow(0 0 10px #00ffff);
-  }
-  
-  @keyframes pulse {
+    @keyframes pulse-intro {
     0% {
       transform: scale(1);
       filter: drop-shadow(0 0 5px #00ffff);

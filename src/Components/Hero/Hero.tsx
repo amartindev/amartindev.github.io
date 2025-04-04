@@ -1,18 +1,14 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import "./Hero.css";
-import Download from "../Shared/Download/Download";
-import TechHero from "../Shared/TechHero/TechHero";
-import Sky from "../Shared/Sky/Sky";
-import Magnet from "../Shared/Magnet/Magnet";
-import RotatingText from "../Shared/TextAnimations/RotatingText/RotatingText";
 import { Link } from "react-scroll";
+import { Download, TechHero, Sky, Magnet, RotatingText} from "../Shared"
+import "./Hero.css";
 
 type HeroProps = {
     changeLanguage: (lng: "en" | "es" | "fr") => void;
 };
 
-export default function Hero({ changeLanguage }: HeroProps) {
+export const Hero = ({ changeLanguage }: HeroProps) => {
     const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
 

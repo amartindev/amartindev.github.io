@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import anime from "animejs/lib/anime.es.js";
 import "./Sky.css";
 
-export default function Sky() {
+export const Sky = () => {
     useEffect(() => {
         anime({
             targets: ".sun",
@@ -22,7 +22,6 @@ export default function Sky() {
 
     return (
         <>
-            {/* <div className='sun'></div> */}
             <div className='horizont'></div>
         </>
     );

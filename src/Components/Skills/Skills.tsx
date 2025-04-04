@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import "./Skills.css";
 
 
-export default function Skills() {
+export const Skills = () => {
     const { t } = useTranslation();
     const frontendTechs = (
         t("techs.frontend", { returnObjects: true }) as string[]

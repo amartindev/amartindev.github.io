@@ -1,19 +1,12 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import Hero from "./Components/Hero/Hero";
-import NavBar from "./Components/Shared/NavBar/NavBar";
-import Work from "./Components/Work/Work";
-import Skills from "./Components/Skills/Skills";
-import Experience from "./Components/Experience/Experience";
-import Contact from "./Components/Contact/Contact";
 import AnimatedCursor from "react-animated-cursor";
-import Aurora from "./Components/Shared/Aurora/Aurora";
-import Loader from "./Components/Shared/Loader/Loader"; // Importa el Loader
+import {NavBar, Hero, Work, Skills, Experience, Contact, Aurora, Loader} from './Components';
 
 const Home = () => {
     const { i18n } = useTranslation();
     const [cursorEnabled, setCursorEnabled] = useState(true);
-    const [isLoading, setIsLoading] = useState(true); // Estado para el Loader
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
         const mediaQuery = window.matchMedia("(max-width: 480px)");

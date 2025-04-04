@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./Download.css";
 
-export default function Download() {
+export const Download =() => {
     const { t } = useTranslation();
 
     const handleClick = () => {

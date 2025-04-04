@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import "react-vertical-timeline-component/style.min.css";
 import "./Experience.css";
 
-export default function Studies() {
+export const Experience = () => {
     const { t } = useTranslation();
     const experiences = t("experience", { returnObjects: true }) as Array<{
         title: string;

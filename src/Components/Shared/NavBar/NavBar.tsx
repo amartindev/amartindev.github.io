@@ -1,9 +1,9 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 import { useTranslation } from "react-i18next";
-import "./NavBar.css";
 import { useState } from "react";
+import "./NavBar.css";
 
-export default function NavBar() {
+export const NavBar = () => {
     const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
 

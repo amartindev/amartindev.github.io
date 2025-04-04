@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import "./Work.css";
 import { motion, LayoutGroup } from "framer-motion";
 import Tilt from "react-parallax-tilt";
-import ProjectModal from "../Shared/Modal/ProjectModal";
+import {Modal} from "../Shared";
+import "./Work.css";
 
 type Project = {
     id: string;
@@ -17,7 +17,7 @@ type Project = {
     tech: string[];
 };
 
-const Work: React.FC = () => {
+export const Work: React.FC = () => {
     const { t } = useTranslation();
     const allProjects = t("projects", { returnObjects: true }) as Project[];
     const activeProjects = allProjects.filter((project) => project.active);
@@ -79,7 +79,7 @@ const Work: React.FC = () => {
                     </div>
                     <div className='all-proyects'>
                         <button
-                            className="button-all-proyects button-link button-contact-form"
+                            className="button-all-proyects button-contact-form"
                             onClick={() => setShow((prev) => !prev)}
                         >
                             {show ? t("hide-projects") : t("all-projects")}
@@ -134,7 +134,7 @@ const Work: React.FC = () => {
                         )}
                     </div>
                     {/* Modal */}
-                    <ProjectModal
+                    <Modal
                         project={selectedProject}
                         title={t("techtitle")}
                         onClose={() => setSelectedProject(null)}
@@ -144,5 +144,3 @@ const Work: React.FC = () => {
         </>
     );
 };
-
-export default Work;
