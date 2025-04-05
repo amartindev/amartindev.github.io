@@ -13,23 +13,23 @@ export const NavBar = () => {
 
     return (
         <div className="navbar">
-            <div className="logo" onClick={() => scroll.scrollToTop()}>
-                <img src="/assets/rabbitorigami.ico" alt="Logo" className="logo-image" />
+            <div className="navbar__logo" onClick={() => scroll.scrollToTop()}>
+                <img src="/assets/rabbitorigami.ico" alt="Logo" className="navbar__logo-image" />
                 <p>Antonio Martin</p>
             </div>
 
-            <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+            <div className="navbar__hamburger" onClick={() => setIsOpen(!isOpen)}>
                 {isOpen ? <i className='bi bi-x-lg'></i> : <i className="bi bi-list"></i>}
             </div>
 
-            <ul className={`nav-links ${isOpen ? "active-hamburger" : ""}`}>
+            <ul className={`navbar__links ${isOpen ? "navbar__links--active" : ""}`}>
                 <li>
                     <Link
                         to="about"
                         smooth={true}
                         duration={500}
                         spy={true}
-                        activeClass="active"
+                        activeClass="navbar__link--active"
                         isDynamic={true}
                         offset={-50}
                         onClick={handleLinkClick}
@@ -43,7 +43,7 @@ export const NavBar = () => {
                         smooth={true}
                         duration={500}
                         spy={true}
-                        activeClass="active"
+                        activeClass="navbar__link--active"
                         isDynamic={true}
                         offset={-50}
                         onClick={handleLinkClick}
@@ -57,7 +57,7 @@ export const NavBar = () => {
                         smooth={true}
                         duration={500}
                         spy={true}
-                        activeClass="active"
+                        activeClass="navbar__link--active"
                         isDynamic={true}
                         offset={-50}
                         onClick={handleLinkClick}
@@ -71,7 +71,7 @@ export const NavBar = () => {
                         smooth={true}
                         duration={500}
                         spy={true}
-                        activeClass="active"
+                        activeClass="navbar__link--active"
                         isDynamic={true}
                         offset={-50}
                         onClick={handleLinkClick}
@@ -85,7 +85,7 @@ export const NavBar = () => {
                         smooth={true}
                         duration={500}
                         spy={true}
-                        activeClass="active"
+                        activeClass="navbar__link--active"
                         isDynamic={true}
                         offset={-50}
                         onClick={handleLinkClick}
