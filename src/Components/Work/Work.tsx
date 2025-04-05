@@ -28,17 +28,17 @@ export const Work: React.FC = () => {
         <>
             <div id="projects">
                 <LayoutGroup>
-                    <div className='project-container-full'>
-                        <div className='projects-title'>
+                    <div className='projects__container'>
+                        <div className='projects__title-wrapper'>
                             <h2>{t("projects-title")}</h2>
                         </div>
-                        <motion.div className='project-container' layout>
+                        <motion.div className='projects__grid' layout>
                             {activeProjects.length > 0 ? (
                                 activeProjects.map((project, index) => (
                                     <motion.div
                                         key={project.id}
                                         layout
-                                        className={`project ${index % 2 !== 0 ? "offset" : ""}`}
+                                        className={`projects__item ${index % 2 !== 0 ? "projects__item--offset" : ""}`}
                                         onClick={() => setSelectedProject(project)}
                                         style={{ cursor: "pointer" }}
                                     >
@@ -48,16 +48,16 @@ export const Work: React.FC = () => {
                                             scale={1}
                                             glareEnable={false}
                                         >
-                                            <h3 className='project-title'>{project.title}</h3>
+                                            <h3 className='projects__title'>{project.title}</h3>
                                             <motion.div
-                                                className='project-item-container'
+                                                className='projects__image-wrapper'
                                                 whileInView={{ scale: 0.9 }}
                                                 whileHover={{ scale: 1 }}
                                                 whileTap={{ scale: 0.95 }}
                                                 transition={{ duration: 1.2 }}
                                             >
                                                 <motion.div
-                                                    className='project-item-container-img'
+                                                    className='projects__image-wrapper-inner'
                                                     whileInView={{ scale: 1.3 }}
                                                     whileTap={{ scale: 0.95 }}
                                                     transition={{ duration: 1 }}
@@ -65,7 +65,7 @@ export const Work: React.FC = () => {
                                                     <img
                                                         src={`/assets/projects/${project.id}.jpg`}
                                                         alt={project.title}
-                                                        className='project-image'
+                                                        className='projects__image'
                                                     />
                                                 </motion.div>
                                             </motion.div>
@@ -73,26 +73,26 @@ export const Work: React.FC = () => {
                                     </motion.div>
                                 ))
                             ) : (
-                                <p className='no-projects'>No active projects available.</p>
+                                <p className='projects__no-results'>No active projects available.</p>
                             )}
                         </motion.div>
                     </div>
-                    <div className='all-proyects'>
+                    <div className='all-projects'>
                         <button
-                            className="button-all-proyects button-contact-form"
+                            className="all-projects__button button-contact-form"
                             onClick={() => setShow((prev) => !prev)}
                         >
                             {show ? t("hide-projects") : t("all-projects")}
                         </button>
                         {show && (
                             <div>
-                                <motion.div className='all-proyects-container' layout>
+                                <motion.div className='all-projects__grid' layout>
                                     {allProjects.length > 0 ? (
                                         allProjects.map((project) => (
                                             <motion.div
                                                 key={project.id}
                                                 layout
-                                                className={"project grid-item"}
+                                                className={"projects__item"}
                                                 onClick={() => setSelectedProject(project)}
                                                 style={{ cursor: "pointer" }}
                                             >
@@ -102,16 +102,16 @@ export const Work: React.FC = () => {
                                                     scale={1}
                                                     glareEnable={false}
                                                 >
-                                                    <h3 className='project-title'>{project.title}</h3>
+                                                    <h3 className='projects__title'>{project.title}</h3>
                                                     <motion.div
-                                                        className='project-item-container'
+                                                        className='projects__image-wrapper'
                                                         whileInView={{ scale: 0.9 }}
                                                         whileHover={{ scale: 1 }}
                                                         whileTap={{ scale: 0.95 }}
                                                         transition={{ duration: 1.2 }}
                                                     >
                                                         <motion.div
-                                                            className='project-item-container-img'
+                                                            className='projects__image-wrapper-inner'
                                                             whileInView={{ scale: 1.3 }}
                                                             whileTap={{ scale: 0.95 }}
                                                             transition={{ duration: 1 }}
@@ -119,7 +119,7 @@ export const Work: React.FC = () => {
                                                             <img
                                                                 src={`/assets/projects/${project.id}.jpg`}
                                                                 alt={project.title}
-                                                                className='project-image'
+                                                                className='projects__image'
                                                             />
                                                         </motion.div>
                                                     </motion.div>
@@ -127,7 +127,7 @@ export const Work: React.FC = () => {
                                             </motion.div>
                                         ))
                                     ) : (
-                                        <p className='no-projects'>No active projects available.</p>
+                                        <p className='projects__no-results'>No active projects available.</p>
                                     )}
                                 </motion.div>
                             </div>
