@@ -1,27 +1,31 @@
 .projects__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: baseline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
 }
 
 .projects__title-wrapper {
-  z-index: 1;
-  margin: -4rem 0 -5rem 0;
+    z-index: 1;
+    margin: -4rem 0 -5rem 0;
 }
 
 .projects__title-wrapper h2 {
-  text-align: center;
-  position: relative;
-  font-size: 15rem;
-  margin: 0 auto;
-  left: 50%;
-  transform: translateX(-50%);
-  text-transform: uppercase;
-  background: linear-gradient(0deg, rgba(0, 3, 3, 0) 0%, rgba(37, 255, 248, 0.26) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+    text-align: center;
+    position: relative;
+    font-size: 15rem;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 3, 3, 0) 0%,
+        rgba(37, 255, 248, 0.26) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .projects__grid {
@@ -31,9 +35,9 @@
     gap: 5rem;
     position: relative;
     top: 0;
-  }
-  
-  .projects__item {
+}
+
+.projects__item {
     width: 80%;
     height: auto;
     display: flex;
@@ -41,24 +45,22 @@
     justify-content: center;
     align-items: flex-start;
     cursor: pointer;
-  }
-  
-  .projects__title {
+}
+
+.projects__title {
     text-align: left;
     color: var(--rich-black);
     margin-left: 2rem;
-    text-shadow:
-      1px 1px 1px var(--light-blue-2),
-      -1px -1px 1px var(--light-blue-2),
-      1px -1px 1px var(--light-blue-2),
-      -1px 1px 1px var(--light-blue-2);
-  }
-  
-  .projects__item--offset {
+    text-shadow: 1px 1px 1px var(--light-blue-2),
+        -1px -1px 1px var(--light-blue-2), 1px -1px 1px var(--light-blue-2),
+        -1px 1px 1px var(--light-blue-2);
+}
+
+.projects__item--offset {
     transform: translateY(10rem);
-  }
-  
-  .projects__image-wrapper {
+}
+
+.projects__image-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,32 +72,31 @@
     -webkit-backdrop-filter: blur(12.1px);
     backdrop-filter: blur(12.1px);
     border: 1px solid var(--midnight-green);
-  }
-  
-  .projects__image-wrapper-inner {
+}
+
+.projects__image-wrapper-inner {
     width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .projects__image {
+}
+
+.projects__image {
     width: 100%;
     border-radius: 16px;
-  }
-  
-  
-  /* ==== All Projects ==== */
-  
-  .all-projects {
+}
+
+/* ==== All Projects ==== */
+
+.all-projects {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 5rem;
     margin-top: 9rem;
-  }
-  
-  .all-projects__button {
+}
+
+.all-projects__button {
     font-size: 20px;
     margin-top: 2rem;
     width: 30%;
@@ -103,53 +104,52 @@
     height: 50px;
     z-index: 10;
     transition: font-size 0.3s ease-in-out, transform 0.3s ease-in-out;
-  }
-  
-  .all-projects__button:hover {
+}
+
+.all-projects__button:hover {
     transform: scale(1.1);
-  }
-  
-  .all-projects__grid {
+}
+
+.all-projects__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     max-width: 100%;
     justify-items: center;
     padding-top: 5rem;
-  }
-  
-  /* ==== Media Queries (Responsive) ==== */
-  
-  @media (min-width: 1440px) {
+}
+
+/* ==== Media Queries (Responsive) ==== */
+
+@media (min-width: 1440px) {
     .projects__image-wrapper {
-      padding: 3.5rem 0.5rem;
+        padding: 3.5rem 0.5rem;
     }
-  }
-  
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .projects__title-wrapper h2 {
-      margin-top: 5rem;
-      font-size: 17vw;
+        margin-top: 5rem;
+        font-size: 17vw;
     }
-  
+
     .projects__grid {
-      margin-top: 3rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 2rem;
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
     }
-  
+
     .projects__item--offset {
-      transform: translateY(0);
+        transform: translateY(0);
     }
-  
+
     .all-projects {
-      margin-top: 1rem;
+        margin-top: 1rem;
     }
-  
+
     .all-projects__button {
-      width: 320px;
+        width: 320px;
     }
-  }
-  
+}
