@@ -1,5 +1,5 @@
 /* Hero */
-.container-hero {
+.hero {
     display: flex;
     flex-direction: row;
     height: calc(100vh);
@@ -13,7 +13,7 @@
     z-index: 10;
 }
 
-.container-left-hero {
+.hero__left {
     min-width: 40%;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
     padding-top: 2rem;
 }
 
-.container-left-hero-buttons {
+.hero__left-buttons {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -33,7 +33,7 @@
     border-radius: 0px 0px 15px 15px;
 }
 
-.container-right-hero {
+.hero__right {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +44,7 @@
     padding-right: 2rem;
 }
 
-.hero-title {
+.hero__title {
     padding-top: 2rem;
     display: flex;
     flex-direction: row;
@@ -53,7 +53,7 @@
     align-items: center;
     margin-bottom: 0;
     color: var(--midnight-green);
-    .rotating-text {
+    .hero__title-text {
         padding-left: 8px;
         padding-right: 8px;
         background-color: var(--midnight-green);
@@ -67,7 +67,7 @@
     }
     
     @media (min-width: 640px) {
-        .rotating-text {
+        .hero__title-text {
             padding-left: 8px;
             padding-right: 8px;
             padding-top: 4px;
@@ -76,7 +76,7 @@
     }
     
     @media (min-width: 768px) {
-        .rotating-text {
+        .hero__title-text {
             padding-left: 12px;
             padding-right: 12px;
             padding-top: 8px;
@@ -86,7 +86,7 @@
     
 }
 
-.hero-text {
+.hero__text {
     color: var(--light-blue);
     max-width: 800px;
     margin-bottom: 1rem;
@@ -100,13 +100,13 @@
 
 /* Language Selector */
 
-.language-selector {
+.hero__language-selector {
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-.button {
+.hero__button {
     color: var(--light-blue-2);
     padding: 10px 15px;
     font-size: 15px;
@@ -122,7 +122,7 @@
     margin-top: 2rem;
 }
 
-.dropdown-content {
+.hero__language-options {
     display: none;
     position: absolute;
     z-index: 100;
@@ -136,12 +136,12 @@
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.language-selector:hover .dropdown-content {
+.hero__language-selector:hover .hero__language-options {
     display: block;
     cursor: none;
 }
 
-.dropdown-content a {
+.hero__language-options a {
     color: var(--light-blue-2);
     padding: 4px 10px;
     text-decoration: none;
@@ -149,7 +149,7 @@
     transition: 0.1s;
 }
 
-.dropdown-content a:hover {
+.hero__language-options a:hover {
     background-color: var(--light-blue);
     color: var(--teal);
 }
@@ -158,17 +158,17 @@
 a {
     text-decoration: none;
 }
-.scroll-container {
+.hero__scroll {
     position: absolute;
     bottom: 0;
     left: 50%;
     z-index: 1000;
 }
-.main__scroll-text {
+.hero__scroll-text {
     color: var(--light-blue);
 }
 
-.scroll-container .main__scroll-box {
+.hero__scroll .hero__scroll-box {
     animation: scroll-down 2s infinite;
 }
 
@@ -190,13 +190,13 @@ a {
         opacity: 0;
     }
 }
-.container-profile-picture {
+.hero__profile {
     width: auto;
     height: auto;
     position: relative;
 }
 
-.circle-background {
+.hero__circle-bg {
     transform: translate(-30px, 56px); /* antes none post -30px, 56px imagen animada  */
     position: absolute;
     display: inline-block;
@@ -209,7 +209,7 @@ a {
     border-radius: 15px 15px 0px 0px;
 }
 
-.profile-picture {
+.hero__image {
     width: 240px; /* antes auto post 240px imagen animada  */
     height: auto;
     position: relative;
@@ -217,7 +217,7 @@ a {
     transform: translateY(-4px); /* antes none post -4px imagen animada  */
 }
 
-.button-link {
+.hero__button-link {
     position: absolute;
     width: 150px;
     height: 50px;
@@ -232,7 +232,7 @@ a {
     font-size: 14px;
     transition: font-size 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
-.button-link:hover {
+.hero__button-link:hover {
     font-size: 15px;
     transform: scale(1.1);
 }
@@ -250,16 +250,16 @@ a {
 
 @media (max-width: 768px) {
 
-    .container-hero {
+    .hero {
         padding: 0;
         display: flex;
         flex-direction: column;
         height: auto;
     }
-    .hero-title{
+    .hero__title{
         padding: 2rem 0;
     }
-    .container-left-hero{
+    .hero__left{
         margin-top: 60px;
         .github{
             transform: translateY(-150px);
@@ -268,19 +268,19 @@ a {
             transform: translateY(-100px);
         }
     }
-    .container-right-hero{
+    .hero__right{
         padding: 2rem;
-        .hero-title {
+        .hero__title {
             font-size: 33px;
         }
     }
-    .scroll-container {
+    .hero__scroll {
         transform: translateX(-50%);
     }
 }
 
 @media (min-width: 1440px) {
-    .hero-text {
+    .hero__text {
         font-size: 22px;
     }
 }

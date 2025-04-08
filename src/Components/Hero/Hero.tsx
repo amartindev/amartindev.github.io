@@ -19,9 +19,9 @@ export const Hero = ({ changeLanguage }: HeroProps) => {
 
     return (
         <>
-            <div className='container-hero' id='about'>
-                <div className='container-left-hero'>
-                    <div className='container-profile-picture'>
+            <div className='hero' id='about'>
+                <div className='hero__left'>
+                    <div className='hero__profile'>
                         <Magnet
                             className='github'
                             padding={200}
@@ -35,7 +35,7 @@ export const Hero = ({ changeLanguage }: HeroProps) => {
                                         "_blank"
                                     )
                                 }
-                                className='button-link'
+                                className='hero__button-link'
                             >
                                 <i className='bi bi-github'></i> GitHub
                             </button>
@@ -53,29 +53,29 @@ export const Hero = ({ changeLanguage }: HeroProps) => {
                                         "_blank"
                                     )
                                 }
-                                className='button-link'
+                                className='hero__button-link'
                             >
                                 <i className='bi bi-linkedin'></i> LinkedIn
                             </button>
                         </Magnet>
-                        <div className='circle-background'></div>
+                        <div className='hero__circle-bg'></div>
                         <img
-                            className='profile-picture'
+                            className='hero__image'
                             src='/assets/profile-animated2.png'
                             alt='Profile Pic'
                         />
                     </div>
-                    <div className='container-left-hero-buttons'>
+                    <div className='hero__left-buttons'>
                         <div
-                            className='language-selector'
+                            className='hero__language-selector'
                             onMouseEnter={() => setIsOpen(true)}
                             onMouseLeave={() => setIsOpen(false)}
                         >
-                            <button className='button'>
+                            <button className='hero__button'>
                                 {t("select-language")} &nbsp; ▼
                             </button>
                             {isOpen && (
-                                <div className='dropdown-content'>
+                                <div className='hero__language-options'>
                                     <a onClick={() => handleLanguageChange("en")}>
                                         English
                                     </a>
@@ -91,11 +91,11 @@ export const Hero = ({ changeLanguage }: HeroProps) => {
                         <Download />
                     </div>
                 </div>
-                <div className='container-right-hero'>
-                    <h1 className='hero-title'>
+                <div className='hero__right'>
+                    <h1 className='hero__title'>
                         <RotatingText
                             texts={["Web", "Frontend", "Full-Stack"]}
-                            mainClassName='rotating-text'
+                            mainClassName='hero__title-text'
                             staggerFrom={"last"}
                             initial={{ y: "100%" }}
                             animate={{ y: 0 }}
@@ -111,18 +111,18 @@ export const Hero = ({ changeLanguage }: HeroProps) => {
                         />{" "}
                         Developer
                     </h1>
-                    <p className='hero-text'>{t("hero-contain")}</p>
+                    <p className='hero__text'>{t("hero-contain")}</p>
                     <TechHero />
                 </div>
-                <div className='scroll-container'>
+                <div className='hero__scroll'>
                     <Link
                         to='projects'
                         smooth={true}
                         duration={500}
                         offset={-70}
-                        className='main__scroll'
+                        className='hero__scroll-link'
                     >
-                        <div className='main__scroll-box'>
+                        <div className='hero__scroll-box'>
                             <svg
                                 viewBox='0 0 24 24'
                                 xmlns='http://www.w3.org/2000/svg'
@@ -134,7 +134,7 @@ export const Hero = ({ changeLanguage }: HeroProps) => {
                                 ></path>
                             </svg>
                         </div>
-                        <span className='main__scroll-text'>Scroll</span>
+                        <span className='hero__scroll-text'>Scroll</span>
                     </Link>
                 </div>
                 <Sky />
