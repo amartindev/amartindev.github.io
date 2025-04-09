@@ -16,16 +16,16 @@ export const Skills = () => {
     ).map((name) => ({ name }));
 
     return (
-        <div className='container-skills' id="skills">
-            <h3 className='title-skills'>Skills</h3>
-            <div className='container-tech-skills'>
+        <div className='skills' id="skills">
+            <h3 className='skills__title'>Skills</h3>
+            <div className='skills__sections'>
                 <div className='container-front-skills'>
-                    <h4 className='tech-title'>Frontend</h4>
+                    <h4 className='skills__section-title'>Frontend</h4>
                     <motion.div
                         initial='hidden'
                         whileInView='visible'
                         transition={{ staggerChildren: 0.2 }}
-                        className='tech-skills'
+                        className='skills__tech-list'
                     >
                         {frontendTechs.map((tech) => (
                             <motion.div
@@ -48,12 +48,12 @@ export const Skills = () => {
                 </div>
 
                 <div className='container-back-skills'>
-                <h4 className='tech-title'>Backend</h4>
+                <h4 className='skills__section-title'>Backend</h4>
                     <motion.div
                         initial='hidden'
                         whileInView='visible'
                         transition={{ staggerChildren: 0.2 }}
-                        className='tech-skills'
+                        className='skills__tech-list'
                     >
                         {backendTechs.map((tech) => (
                             <motion.div
@@ -75,12 +75,12 @@ export const Skills = () => {
                     </motion.div>
                 </div>
             <div className='container-tools-skills'>
-            <h4 className='tech-title'>Tools</h4>
+            <h4 className='skills__section-title'>Tools</h4>
                     <motion.div
                         initial='hidden'
                         whileInView='visible'
                         transition={{ staggerChildren: 0.2 }}
-                        className='tech-skills'
+                        className='skills__tech-list'
                     >
                         {ToolTechs.map((tech) => (
                             <motion.div
