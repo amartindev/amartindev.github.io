@@ -3,14 +3,7 @@ import { Tooltip } from "react-tooltip";
 import anime from 'animejs/lib/anime.es.js';
 import "./TechHero.css";
 import { useEffect } from "react";
-
-type Tech = {
-    id: string;
-    name: string;
-    icon: string;
-    date: string;
-    hero: boolean;
-};
+import { Tech } from "../../../types/types"
 
 export const TechHero = () => {
     const { t } = useTranslation();

@@ -5,3 +5,4 @@ export {Skills} from './Skills/Skills'
 export {Experience} from './Experience/Experience'
 
 export * from './Shared'
+

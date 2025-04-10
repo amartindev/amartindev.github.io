@@ -4,18 +4,8 @@ import { motion, LayoutGroup } from "framer-motion";
 import Tilt from "react-parallax-tilt";
 import {Modal} from "../Shared";
 import "./Work.css";
+import { Project } from '../../types/types'
 
-type Project = {
-    id: string;
-    title: string;
-    description: string;
-    image: string;
-    liveLink: string;
-    githubLink: string;
-    active: boolean;
-    gallery: string[];
-    tech: string[];
-};
 
 export const Work: React.FC = () => {
     const { t } = useTranslation();

@@ -5,16 +5,12 @@ import {
 import { useTranslation } from "react-i18next";
 import "react-vertical-timeline-component/style.min.css";
 import "./Experience.css";
+import { ExperienceItem } from "../../types/types";
+
 
 export const Experience = () => {
     const { t } = useTranslation();
-    const experiences = t("experience", { returnObjects: true }) as Array<{
-        title: string;
-        institution: string;
-        date: string;
-        type: string;
-        certification: string;
-    }>;
+    const experiences = t("experience", { returnObjects: true }) as ExperienceItem[];
     return (
             <div className='time-line' id="experience">
                 <h3 className='title-experience'>{t("experience-title")}</h3>

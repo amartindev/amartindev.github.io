@@ -6,18 +6,9 @@ import { Tooltip } from "react-tooltip";
 import anime from "animejs/lib/anime.es.js";
 import "./Modal.css";
 import "swiper/swiper-bundle.css";
+import { Project } from "../../../types/types"
 
-type Project = {
-    id: string;
-    title: string;
-    description: string;
-    image: string;
-    liveLink: string;
-    githubLink: string;
-    active: boolean;
-    gallery: string[];
-    tech: string[];
-};
+
 
 interface ModalProps {
     project: Project | null;
