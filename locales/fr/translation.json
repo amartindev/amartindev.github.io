@@ -242,7 +242,9 @@
             "active": true,
             "gallery": [
                 "project-18-01",
-                "project-18-02"],
+                "project-18-02",
+                "project-18-03"
+            ],
             "tech": [
                 "React.js",
                 "TypeScript",
