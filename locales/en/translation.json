@@ -234,6 +234,26 @@
             "tech": ["HTML5", "CSS3", "PHP", "Jebbit"]
         },
         {
+            "id": "project-18",
+            "title": "TweetTruthSeeker",
+            "description": "TweetTruthSeeker is a platform that allows you to automatically analyze the truthfulness of a tweet. In other words, it performs a task similar to that of fact-checking journalists, but in an automated and almost instant way thanks to the use of artificial intelligence.",
+            "liveLink": "https://tweet-truth-seeker.netlify.app/",
+            "githubLink": "https://github.com/amartindev/Tweet-Truth-Seeker",
+            "active": true,
+            "gallery": [
+                "project-18-01"],
+            "tech": [
+                "React.js",
+                "TypeScript",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "Tailwind CSS",
+                "Vercel",
+                "Vite"
+            ]
+        },
+        {
             "id": "project-14",
             "title": "PDF Page Extractor",
             "description": "A web application that allows users to split PDFs of any size into multiple page ranges without any restrictions. Built with React, TypeScript, and Tailwind CSS, this tool offers a seamless and efficient way to extract and organize PDF content.",
@@ -375,17 +395,6 @@
             ],
             "tech": ["HTML5", "JavaScript", "CSS3", "Responsive Design"]
         },
-
-        {
-            "id": "project-09",
-            "title": "Studio Ghibli SPA",
-            "description": "Single-page application showcasing Studio Ghibli movies. Developed using HTML, CSS, and vanilla JavaScript, it dynamically loads data from a JSON file and features a clean, responsive design for an immersive viewing experience.",
-            "liveLink": "https://spa-ghibli.netlify.app/",
-            "githubLink": "https://github.com/amartindev/studio-ghibli-spa",
-            "active": false,
-            "gallery": ["project-09-01", "project-09-02"],
-            "tech": ["HTML5", "JavaScript", "CSS3"]
-        },
         {
             "id": "project-10",
             "title": "NeoTokio",
@@ -407,12 +416,27 @@
             ]
         },
         {
+            "id": "project-09",
+            "title": "Welder Portfolio",
+            "description": "This portfolio website was developed using TypeScript and React, with a strong focus on SEO best practices to ensure optimal visibility and performance.",
+            "liveLink": "https://edwinrios.netlify.app/",
+            "githubLink": "https://github.com/amartindev/EdwinRios",
+            "active": true,
+            "gallery": [
+                "project-09-02",
+                "project-09-01",
+                "project-09-03",
+                "project-09-04"
+            ],
+            "tech": ["React.js","TypeScript","Tailwind CSS","HTML5", "JavaScript", "CSS3", "Responsive Design"]
+        },
+        {
             "id": "project-11",
             "title": "ARJ",
             "description": "Landing page for a home finishing company featuring a professional and responsive design. Developed with React.js and Bootstrap, it delivers a modern, intuitive user experience that enhances navigation and highlights service details.",
             "liveLink": "https://acabadosarj.netlify.app/",
             "githubLink": "https://github.com/amartindev/apartment-finishing",
-            "active": true,
+            "active": false,
             "gallery": ["project-11-01", "project-11-02", "project-11-03"],
             "tech": [
                 "React.js",
