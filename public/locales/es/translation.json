@@ -234,6 +234,27 @@
             "tech": ["HTML5", "CSS3", "PHP", "Jebbit"]
         },
         {
+            "id": "project-18",
+            "title": "TweetTruthSeeker",
+            "description": "TweetTruthSeeker es una plataforma que permite analizar automáticamente la veracidad de un tweet, es decir, hace una tarea similar a la de los periodistas de verificación de hechos, pero de forma automatizada y casi instantánea gracias al uso de inteligencia artificial.",
+            "liveLink": "https://tweet-truth-seeker.netlify.app/",
+            "githubLink": "https://github.com/amartindev/Tweet-Truth-Seeker",
+            "active": true,
+            "gallery": [
+                "project-18-01",
+                "project-18-02"],
+            "tech": [
+                "React.js",
+                "TypeScript",
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "Tailwind CSS",
+                "Vercel",
+                "Vite"
+            ]
+        },
+        {
             "id": "project-14",
             "title": "Extractor de Páginas PDF",
             "description": "Una aplicación web que permite dividir archivos PDF de cualquier tamaño en múltiples intervalos de páginas sin ninguna restricción. Desarrollada con React, TypeScript y Tailwind CSS, esta herramienta ofrece una forma eficiente y fluida de extraer y organizar contenido en PDF.",
@@ -375,17 +396,6 @@
             ],
             "tech": ["HTML5", "JavaScript", "CSS3", "Responsive Design"]
         },
-
-        {
-            "id": "project-09",
-            "title": "SPA de Studio Ghibli",
-            "description": "Aplicación de una sola página que muestra películas de Studio Ghibli. Desarrollada usando HTML, CSS y JavaScript vanilla, carga dinámicamente datos desde un archivo JSON y presenta un diseño limpio y responsive para una experiencia visual inmersiva.",
-            "liveLink": "https://spa-ghibli.netlify.app/",
-            "githubLink": "https://github.com/amartindev/studio-ghibli-spa",
-            "active": false,
-            "gallery": ["project-09-01", "project-09-02"],
-            "tech": ["HTML5", "JavaScript", "CSS3"]
-        },
         {
             "id": "project-10",
             "title": "NeoTokio",
@@ -405,6 +415,21 @@
                 "Sass",
                 "Responsive Design"
             ]
+        },
+        {
+            "id": "project-09",
+            "title": "Portafolio Soldador",
+            "description": "Este sitio web de portafolio fue desarrollado utilizando TypeScript y React, con un fuerte enfoque en las mejores prácticas de SEO para garantizar una visibilidad y rendimiento óptimos.",
+            "liveLink": "https://edwinrios.netlify.app/",
+            "githubLink": "https://github.com/amartindev/EdwinRios",
+            "active": true,
+            "gallery": [
+                "project-09-02",
+                "project-09-01",
+                "project-09-03",
+                "project-09-04"
+            ],
+            "tech": ["React.js","TypeScript","Tailwind CSS","HTML5", "JavaScript", "CSS3", "Responsive Design"]
         },
         {
             "id": "project-11",
