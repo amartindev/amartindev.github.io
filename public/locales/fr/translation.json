@@ -407,7 +407,7 @@
             "title": "NeoTokio",
             "description": "NeoTokyo est un site web interactif aux animations avancées, développé avec React.js. En plus des effets dynamiques propulsés par GSAP et Anime.js, il utilise React.js Router pour une navigation fluide et Tailwind CSS pour un design moderne et responsive, créant ainsi une expérience digitale immersive.",
             "liveLink": "https://neotokyoam.netlify.app/",
-            "githubLink": "https://github.com/amartindev/animated-showcase",
+            "githubLink": "https://github.com/amartindev/NeoTokyo",
             "active": true,
             "gallery": ["project-10-01", "project-10-02", "project-10-03"],
             "tech": [
