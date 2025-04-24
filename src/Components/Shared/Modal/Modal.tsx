@@ -97,7 +97,7 @@ export const Modal: React.FC<ModalProps> = ({
                     <div className="container-live-links">
                         {project.liveLink ? (
                             <a
-                                className="live-links"
+                                className="live-links live-demo"
                                 href={project.liveLink}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -116,7 +116,7 @@ export const Modal: React.FC<ModalProps> = ({
                         {" | "}
                         {project.githubLink ? (
                             <a
-                                className="live-links"
+                                className="live-links live-github"
                                 href={project.githubLink}
                                 target="_blank"
                                 rel="noopener noreferrer"
