@@ -308,7 +308,7 @@
             "title": "Boutique de mode",
             "description": "Boutique en ligne responsive construite avec React.js et Bootstrap, intégrant une API simulée pour gérer les produits et le panier d'achats.",
             "liveLink": "https://shopping-cart-kleidung.netlify.app/",
-            "githubLink": "https://github.com/amartindev/fashion-store",
+            "githubLink": "https://github.com/amartindev/ShoppingCartReact",
             "active": false,
             "gallery": ["project-02-01", "project-02-02"],
             "tech": [
@@ -324,7 +324,7 @@
             "title": "Site immobilier",
             "description": "Site immobilier responsive présentant des propriétés avec un design moderne. Développé en utilisant HTML, CSS et JavaScript vanilla, et amélioré avec la bibliothèque Lightbox pour des galeries d'images interactives.",
             "liveLink": "https://tarazona.netlify.app/",
-            "githubLink": "https://github.com/amartindev/real-estate-website",
+            "githubLink": "https://github.com/amartindev/inmobiliaria",
             "active": true,
             "gallery": [
                 "project-03-01",
@@ -339,7 +339,7 @@
             "title": "Page du festival de musique",
             "description": "Page promotionnelle pour un festival de musique rock et électronique, présentant une galerie interactive et un design responsive, développée en utilisant HTML, CSS et JavaScript.",
             "liveLink": "https://amartindevfestivalmusica.netlify.app/",
-            "githubLink": "https://github.com/amartindev/music-festival-page",
+            "githubLink": "https://github.com/amartindev/FestivalMusica",
             "active": false,
             "gallery": ["project-04-01", "project-04-02"],
             "tech": [
@@ -356,7 +356,7 @@
             "title": "Boutique de hamburgers",
             "description": "Site web responsive pour une boutique de hamburgers présentant un panier d'achats interactif et un design intuitif, construit avec HTML, CSS et JavaScript vanilla, et enrichi avec des bibliothèques telles que Bootstrap, Animate.js et Swiper.",
             "liveLink": "https://amartindevburguershop.netlify.app/",
-            "githubLink": "https://github.com/amartindev/hamburger-shop",
+            "githubLink": "https://github.com/amartindev/BurguerShop",
             "active": false,
             "gallery": ["project-05-01", "project-05-02"],
             "tech": ["HTML5", "JavaScript", "CSS3", "Responsive Design"]
@@ -391,7 +391,7 @@
             "title": "Blog des amateurs de café",
             "description": "Blog destiné aux passionnés de café, proposant des articles inspirants, des conseils pratiques et des cours spécialisés. Développé avec HTML, CSS, JavaScript et Sass, il est entièrement optimisé pour le SEO et offre des performances de haut niveau, garantissant une expérience utilisateur exceptionnelle.",
             "liveLink": "https://amartindevblogdecafe.netlify.app/",
-            "githubLink": "https://github.com/amartindev/coffee-blog",
+            "githubLink": "https://github.com/amartindev/blogdecafe",
             "active": false,
             "gallery": [
                 "project-07-01",
@@ -442,7 +442,7 @@
             "title": "ARJ",
             "description": "Page de destination pour une entreprise de finitions intérieures, présentant un design professionnel et responsive. Développée avec React.js et Bootstrap, elle offre une expérience utilisateur moderne et intuitive qui facilite la navigation et met en valeur les détails des services.",
             "liveLink": "https://acabadosarj.netlify.app/",
-            "githubLink": "https://github.com/amartindev/apartment-finishing",
+            "githubLink": "https://github.com/amartindev/ARJ",
             "active": true,
             "gallery": ["project-11-01", "project-11-02", "project-11-03"],
             "tech": [
@@ -459,7 +459,7 @@
             "title": "Nouveau jeu du morpion",
             "description": "Jeu classique et amélioré du morpion implémenté en React.js, proposant des modes classique et infini pour une expérience interactive et moderne.",
             "liveLink": "https://tictactoe-amartindev.netlify.app/",
-            "githubLink": "https://github.com/amartindev/tic-tac-toe",
+            "githubLink": "https://github.com/amartindev/tictactoe",
             "active": false,
             "gallery": ["project-12-01", "project-12-02"],
             "tech": [
