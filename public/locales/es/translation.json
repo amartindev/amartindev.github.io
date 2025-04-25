@@ -308,7 +308,7 @@
             "title": "Tienda de Moda",
             "description": "Tienda de moda online responsive construida con React.js y Bootstrap, que integra una API simulada para gestionar productos y el carrito de compras.",
             "liveLink": "https://shopping-cart-kleidung.netlify.app/",
-            "githubLink": "https://github.com/amartindev/fashion-store",
+            "githubLink": "https://github.com/amartindev/ShoppingCartReact",
             "active": false,
             "gallery": ["project-02-01", "project-02-02"],
             "tech": [
@@ -324,7 +324,7 @@
             "title": "Sitio Web Inmobiliario",
             "description": "Sitio web inmobiliario responsive que muestra propiedades con un diseño moderno. Desarrollado usando HTML, CSS y JavaScript vanilla, y mejorado con la librería Lightbox para galerías de imágenes interactivas.",
             "liveLink": "https://tarazona.netlify.app/",
-            "githubLink": "https://github.com/amartindev/real-estate-website",
+            "githubLink": "https://github.com/amartindev/inmobiliaria",
             "active": true,
             "gallery": [
                 "project-03-01",
@@ -339,7 +339,7 @@
             "title": "Página del Festival de Música",
             "description": "Página promocional para un festival de música rock y electrónica, con una galería interactiva y diseño responsive, desarrollada usando HTML, CSS y JavaScript.",
             "liveLink": "https://amartindevfestivalmusica.netlify.app/",
-            "githubLink": "https://github.com/amartindev/music-festival-page",
+            "githubLink": "https://github.com/amartindev/FestivalMusica",
             "active": false,
             "gallery": ["project-04-01", "project-04-02"],
             "tech": [
@@ -356,7 +356,7 @@
             "title": "Hamburgería",
             "description": "Sitio web responsive para una tienda de hamburguesas que presenta un carrito de compras interactivo y un diseño intuitivo, construido con HTML, CSS y JavaScript vanilla, y mejorado con librerías como Bootstrap, Animate.js y Swiper.",
             "liveLink": "https://amartindevburguershop.netlify.app/",
-            "githubLink": "https://github.com/amartindev/hamburger-shop",
+            "githubLink": "https://github.com/amartindev/BurguerShop",
             "active": false,
             "gallery": ["project-05-01", "project-05-02"],
             "tech": ["HTML5", "JavaScript", "CSS3", "Responsive Design"]
@@ -391,7 +391,7 @@
             "title": "Blog para Amantes del Café",
             "description": "Blog para entusiastas del café que presenta publicaciones inspiradoras, consejos prácticos y cursos especializados. Desarrollado usando HTML, CSS, JavaScript y Sass, está completamente optimizado para SEO y rendimiento de primera, asegurando una experiencia de usuario excepcional.",
             "liveLink": "https://amartindevblogdecafe.netlify.app/",
-            "githubLink": "https://github.com/amartindev/coffee-blog",
+            "githubLink": "https://github.com/amartindev/blogdecafe",
             "active": false,
             "gallery": [
                 "project-07-01",
@@ -442,7 +442,7 @@
             "title": "ARJ",
             "description": "Página de aterrizaje para una empresa de acabados para el hogar que presenta un diseño profesional y responsive. Desarrollada con React.js y Bootstrap, ofrece una experiencia de usuario moderna e intuitiva que mejora la navegación y resalta los detalles del servicio.",
             "liveLink": "https://acabadosarj.netlify.app/",
-            "githubLink": "https://github.com/amartindev/apartment-finishing",
+            "githubLink": "https://github.com/amartindev/ARJ",
             "active": true,
             "gallery": ["project-11-01", "project-11-02", "project-11-03"],
             "tech": [
@@ -459,7 +459,7 @@
             "title": "Nuevo Juego del Tres en Raya",
             "description": "Juego clásico y mejorado del tres en raya implementado en React.js, que presenta modos clásico e infinito, ofreciendo una experiencia interactiva y moderna.",
             "liveLink": "https://tictactoe-amartindev.netlify.app/",
-            "githubLink": "https://github.com/amartindev/tic-tac-toe",
+            "githubLink": "https://github.com/amartindev/tictactoe",
             "active": false,
             "gallery": ["project-12-01", "project-12-02"],
             "tech": [
